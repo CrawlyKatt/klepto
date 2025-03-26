@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\steam\</FILEPATH>
+      <FILENAME>matchmakingtypes.h</FILENAME>
+      <LINE>225</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'gameserveritem_t::m_NetAdr' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>gameserveritem_t::{ctor}</FUNCTION>
+    <DECORATED>??0gameserveritem_t@@QAE@XZ</DECORATED>
+    <FUNCLINE>225</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>gameserveritem_t::m_NetAdr</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>vgui_avatarimage.cpp</FILENAME>
+      <LINE>150</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>6255</DEFECTCODE>
+    <DESCRIPTION>`_alloca` indicates failure by raising a stack overflow exception.  Consider using _malloca instead.</DESCRIPTION>
+    <FUNCTION>CAvatarImage::LoadAvatarImage</FUNCTION>
+    <DECORATED>?LoadAvatarImage@CAvatarImage@@AAEXXZ</DECORATED>
+    <FUNCLINE>118</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\tier1\</FILEPATH>
+      <FILENAME>utlmap.h</FILENAME>
+      <LINE>178</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CUtlMap&lt;AvatarImagePair_t,int,unsigned short&gt;::Node_t::elem' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CUtlMap&lt;AvatarImagePair_t,int,unsigned short&gt;::Node_t::{ctor}</FUNCTION>
+    <DECORATED>??0Node_t@?$CUtlMap@UAvatarImagePair_t@@HG@@QAE@XZ</DECORATED>
+    <FUNCLINE>178</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CUtlMap&lt;AvatarImagePair_t,int,unsigned short&gt;::Node_t::elem</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\vgui_controls\</FILEPATH>
+      <FILENAME>Panel.h</FILENAME>
+      <LINE>91</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'vgui::OverridableColorEntry::m_pszScriptName' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>vgui::OverridableColorEntry::{ctor}</FUNCTION>
+    <DECORATED>??0OverridableColorEntry@vgui@@QAE@XZ</DECORATED>
+    <FUNCLINE>91</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>vgui::OverridableColorEntry::m_pszScriptName</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\vgui_controls\</FILEPATH>
+      <FILENAME>Panel.h</FILENAME>
+      <LINE>91</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'vgui::OverridableColorEntry::m_pColor' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>vgui::OverridableColorEntry::{ctor}</FUNCTION>
+    <DECORATED>??0OverridableColorEntry@vgui@@QAE@XZ</DECORATED>
+    <FUNCLINE>91</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>vgui::OverridableColorEntry::m_pColor</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\vgui_controls\</FILEPATH>
+      <FILENAME>Panel.h</FILENAME>
+      <LINE>91</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'vgui::OverridableColorEntry::m_bOverridden' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>vgui::OverridableColorEntry::{ctor}</FUNCTION>
+    <DECORATED>??0OverridableColorEntry@vgui@@QAE@XZ</DECORATED>
+    <FUNCLINE>91</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>vgui::OverridableColorEntry::m_bOverridden</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

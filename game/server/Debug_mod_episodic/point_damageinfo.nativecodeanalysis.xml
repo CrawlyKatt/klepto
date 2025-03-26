@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\mapbase\</FILEPATH>
+      <FILENAME>point_damageinfo.cpp</FILENAME>
+      <LINE>122</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CPointDamageInfo::m_iszInflictor' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CPointDamageInfo::{ctor}</FUNCTION>
+    <DECORATED>??0CPointDamageInfo@@QAE@XZ</DECORATED>
+    <FUNCLINE>122</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CPointDamageInfo::m_iszInflictor</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\mapbase\</FILEPATH>
+      <FILENAME>point_damageinfo.cpp</FILENAME>
+      <LINE>122</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CPointDamageInfo::m_iszAttacker' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CPointDamageInfo::{ctor}</FUNCTION>
+    <DECORATED>??0CPointDamageInfo@@QAE@XZ</DECORATED>
+    <FUNCLINE>122</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CPointDamageInfo::m_iszAttacker</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\mapbase\</FILEPATH>
+      <FILENAME>point_damageinfo.cpp</FILENAME>
+      <LINE>122</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CPointDamageInfo::m_iszWeapon' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CPointDamageInfo::{ctor}</FUNCTION>
+    <DECORATED>??0CPointDamageInfo@@QAE@XZ</DECORATED>
+    <FUNCLINE>122</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CPointDamageInfo::m_iszWeapon</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\mapbase\</FILEPATH>
+      <FILENAME>point_damageinfo.cpp</FILENAME>
+      <LINE>122</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CPointDamageInfo::m_bSuppressDeathSound' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CPointDamageInfo::{ctor}</FUNCTION>
+    <DECORATED>??0CPointDamageInfo@@QAE@XZ</DECORATED>
+    <FUNCLINE>122</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CPointDamageInfo::m_bSuppressDeathSound</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\mapbase\</FILEPATH>
+      <FILENAME>point_damageinfo.cpp</FILENAME>
+      <LINE>178</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'sscanf'.</DESCRIPTION>
+    <FUNCTION>CPointDamageInfo::KeyValue</FUNCTION>
+    <DECORATED>?KeyValue@CPointDamageInfo@@EAE_NPBD0@Z</DECORATED>
+    <FUNCLINE>134</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

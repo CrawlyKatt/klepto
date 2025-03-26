@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>message_entity.cpp</FILENAME>
+      <LINE>68</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CMessageEntity::m_radius' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CMessageEntity::{ctor}</FUNCTION>
+    <DECORATED>??0CMessageEntity@@QAE@XZ</DECORATED>
+    <FUNCLINE>68</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CMessageEntity::m_radius</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>message_entity.cpp</FILENAME>
+      <LINE>68</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CMessageEntity::m_messageText' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CMessageEntity::{ctor}</FUNCTION>
+    <DECORATED>??0CMessageEntity@@QAE@XZ</DECORATED>
+    <FUNCLINE>68</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CMessageEntity::m_messageText</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>message_entity.cpp</FILENAME>
+      <LINE>68</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CMessageEntity::m_drawText' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CMessageEntity::{ctor}</FUNCTION>
+    <DECORATED>??0CMessageEntity@@QAE@XZ</DECORATED>
+    <FUNCLINE>68</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CMessageEntity::m_drawText</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>message_entity.cpp</FILENAME>
+      <LINE>68</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CMessageEntity::m_bEnabled' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CMessageEntity::{ctor}</FUNCTION>
+    <DECORATED>??0CMessageEntity@@QAE@XZ</DECORATED>
+    <FUNCLINE>68</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CMessageEntity::m_bEnabled</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>message_entity.cpp</FILENAME>
+      <LINE>68</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CMessageEntity::m_bDeveloperOnly' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CMessageEntity::{ctor}</FUNCTION>
+    <DECORATED>??0CMessageEntity@@QAE@XZ</DECORATED>
+    <FUNCLINE>68</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CMessageEntity::m_bDeveloperOnly</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

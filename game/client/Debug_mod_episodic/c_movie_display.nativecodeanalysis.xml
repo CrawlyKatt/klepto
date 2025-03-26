@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_movie_display.cpp</FILENAME>
+      <LINE>21</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_MovieDisplay::m_bEnabled' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_MovieDisplay::{ctor}</FUNCTION>
+    <DECORATED>??0C_MovieDisplay@@QAE@XZ</DECORATED>
+    <FUNCLINE>21</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_MovieDisplay::m_bEnabled</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_movie_display.cpp</FILENAME>
+      <LINE>21</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_MovieDisplay::m_bLooping' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_MovieDisplay::{ctor}</FUNCTION>
+    <DECORATED>??0C_MovieDisplay@@QAE@XZ</DECORATED>
+    <FUNCLINE>21</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_MovieDisplay::m_bLooping</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_movie_display.cpp</FILENAME>
+      <LINE>21</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_MovieDisplay::m_bMuted' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_MovieDisplay::{ctor}</FUNCTION>
+    <DECORATED>??0C_MovieDisplay@@QAE@XZ</DECORATED>
+    <FUNCLINE>21</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_MovieDisplay::m_bMuted</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_movie_display.cpp</FILENAME>
+      <LINE>21</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_MovieDisplay::m_szMovieFilename' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_MovieDisplay::{ctor}</FUNCTION>
+    <DECORATED>??0C_MovieDisplay@@QAE@XZ</DECORATED>
+    <FUNCLINE>21</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_MovieDisplay::m_szMovieFilename</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_movie_display.cpp</FILENAME>
+      <LINE>21</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_MovieDisplay::m_szGroupName' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_MovieDisplay::{ctor}</FUNCTION>
+    <DECORATED>??0C_MovieDisplay@@QAE@XZ</DECORATED>
+    <FUNCLINE>21</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_MovieDisplay::m_szGroupName</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

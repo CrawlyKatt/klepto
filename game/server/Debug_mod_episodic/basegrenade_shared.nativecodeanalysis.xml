@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>basegrenade_shared.cpp</FILENAME>
+      <LINE>596</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CBaseGrenade::m_iszBounceSound' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CBaseGrenade::{ctor}</FUNCTION>
+    <DECORATED>??0CBaseGrenade@@QAE@XZ</DECORATED>
+    <FUNCLINE>596</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CBaseGrenade::m_iszBounceSound</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>basegrenade_shared.cpp</FILENAME>
+      <LINE>596</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CBaseGrenade::m_flWarnAITime' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CBaseGrenade::{ctor}</FUNCTION>
+    <DECORATED>??0CBaseGrenade@@QAE@XZ</DECORATED>
+    <FUNCLINE>596</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CBaseGrenade::m_flWarnAITime</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

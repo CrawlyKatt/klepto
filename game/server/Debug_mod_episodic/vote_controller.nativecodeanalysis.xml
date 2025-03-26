@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>vote_controller.cpp</FILENAME>
+      <LINE>827</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CBaseIssue::m_szDetailsString' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CBaseIssue::{ctor}</FUNCTION>
+    <DECORATED>??0CBaseIssue@@QAE@PBD@Z</DECORATED>
+    <FUNCLINE>827</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CBaseIssue::m_szDetailsString</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\tier1\</FILEPATH>
+      <FILENAME>utlmap.h</FILENAME>
+      <LINE>178</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CUtlMap&lt;unsigned __int64,float,unsigned short&gt;::Node_t::key' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CUtlMap&lt;unsigned __int64,float,unsigned short&gt;::Node_t::{ctor}</FUNCTION>
+    <DECORATED>??0Node_t@?$CUtlMap@_KMG@@QAE@XZ</DECORATED>
+    <FUNCLINE>178</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CUtlMap&lt;unsigned __int64,float,unsigned short&gt;::Node_t::key</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\tier1\</FILEPATH>
+      <FILENAME>utlmap.h</FILENAME>
+      <LINE>178</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CUtlMap&lt;unsigned __int64,float,unsigned short&gt;::Node_t::elem' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CUtlMap&lt;unsigned __int64,float,unsigned short&gt;::Node_t::{ctor}</FUNCTION>
+    <DECORATED>??0Node_t@?$CUtlMap@_KMG@@QAE@XZ</DECORATED>
+    <FUNCLINE>178</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CUtlMap&lt;unsigned __int64,float,unsigned short&gt;::Node_t::elem</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>vote_controller.h</FILENAME>
+      <LINE>126</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CVoteController::m_nVotesCast' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CVoteController::{ctor}</FUNCTION>
+    <DECORATED>??0CVoteController@@QAE@XZ</DECORATED>
+    <FUNCLINE>126</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CVoteController::m_nVotesCast</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>vote_controller.h</FILENAME>
+      <LINE>126</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CVoteController::m_iEntityHoldingVote' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CVoteController::{ctor}</FUNCTION>
+    <DECORATED>??0CVoteController@@QAE@XZ</DECORATED>
+    <FUNCLINE>126</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CVoteController::m_iEntityHoldingVote</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>vote_controller.h</FILENAME>
+      <LINE>126</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CVoteController::m_nHighestCountIndex' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CVoteController::{ctor}</FUNCTION>
+    <DECORATED>??0CVoteController@@QAE@XZ</DECORATED>
+    <FUNCLINE>126</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CVoteController::m_nHighestCountIndex</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

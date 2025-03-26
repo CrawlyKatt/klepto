@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\vscript\</FILEPATH>
+      <FILENAME>ivscript.h</FILENAME>
+      <LINE>578</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ScriptConstantBinding_t::m_pszScriptName' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ScriptConstantBinding_t::{ctor}</FUNCTION>
+    <DECORATED>??0ScriptConstantBinding_t@@QAE@XZ</DECORATED>
+    <FUNCLINE>578</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ScriptConstantBinding_t::m_pszScriptName</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\vscript\</FILEPATH>
+      <FILENAME>ivscript.h</FILENAME>
+      <LINE>578</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ScriptConstantBinding_t::m_pszDescription' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ScriptConstantBinding_t::{ctor}</FUNCTION>
+    <DECORATED>??0ScriptConstantBinding_t@@QAE@XZ</DECORATED>
+    <FUNCLINE>578</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ScriptConstantBinding_t::m_pszDescription</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\vscript\</FILEPATH>
+      <FILENAME>ivscript.h</FILENAME>
+      <LINE>578</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ScriptConstantBinding_t::m_flags' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ScriptConstantBinding_t::{ctor}</FUNCTION>
+    <DECORATED>??0ScriptConstantBinding_t@@QAE@XZ</DECORATED>
+    <FUNCLINE>578</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ScriptConstantBinding_t::m_flags</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

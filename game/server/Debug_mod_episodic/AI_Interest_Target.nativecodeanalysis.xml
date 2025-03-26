@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>AI_Interest_Target.h</FILENAME>
+      <LINE>50</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CAI_InterestTarget_t::m_eType' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CAI_InterestTarget_t::{ctor}</FUNCTION>
+    <DECORATED>??0CAI_InterestTarget_t@@QAE@XZ</DECORATED>
+    <FUNCLINE>50</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CAI_InterestTarget_t::m_eType</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>AI_Interest_Target.h</FILENAME>
+      <LINE>50</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CAI_InterestTarget_t::m_flStartTime' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CAI_InterestTarget_t::{ctor}</FUNCTION>
+    <DECORATED>??0CAI_InterestTarget_t@@QAE@XZ</DECORATED>
+    <FUNCLINE>50</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CAI_InterestTarget_t::m_flStartTime</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>AI_Interest_Target.h</FILENAME>
+      <LINE>50</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CAI_InterestTarget_t::m_flEndTime' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CAI_InterestTarget_t::{ctor}</FUNCTION>
+    <DECORATED>??0CAI_InterestTarget_t@@QAE@XZ</DECORATED>
+    <FUNCLINE>50</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CAI_InterestTarget_t::m_flEndTime</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>AI_Interest_Target.h</FILENAME>
+      <LINE>50</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CAI_InterestTarget_t::m_flRamp' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CAI_InterestTarget_t::{ctor}</FUNCTION>
+    <DECORATED>??0CAI_InterestTarget_t@@QAE@XZ</DECORATED>
+    <FUNCLINE>50</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CAI_InterestTarget_t::m_flRamp</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>AI_Interest_Target.h</FILENAME>
+      <LINE>50</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CAI_InterestTarget_t::m_flInterest' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CAI_InterestTarget_t::{ctor}</FUNCTION>
+    <DECORATED>??0CAI_InterestTarget_t@@QAE@XZ</DECORATED>
+    <FUNCLINE>50</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CAI_InterestTarget_t::m_flInterest</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

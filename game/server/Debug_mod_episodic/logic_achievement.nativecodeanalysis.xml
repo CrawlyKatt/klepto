@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>entityinput.h</FILENAME>
+      <LINE>26</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CMultiInputVar::m_bUpdatedThisFrame' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CMultiInputVar::{ctor}</FUNCTION>
+    <DECORATED>??0CMultiInputVar@@QAE@XZ</DECORATED>
+    <FUNCLINE>26</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CMultiInputVar::m_bUpdatedThisFrame</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>logic_achievement.cpp</FILENAME>
+      <LINE>126</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CLogicAchievement::m_bDisabled' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CLogicAchievement::{ctor}</FUNCTION>
+    <DECORATED>??0CLogicAchievement@@QAE@XZ</DECORATED>
+    <FUNCLINE>126</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CLogicAchievement::m_bDisabled</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

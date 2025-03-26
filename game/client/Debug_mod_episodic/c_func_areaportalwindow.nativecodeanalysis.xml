@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_func_areaportalwindow.cpp</FILENAME>
+      <LINE>48</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_FuncAreaPortalWindow::m_flFadeStartDist' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_FuncAreaPortalWindow::{ctor}</FUNCTION>
+    <DECORATED>??0C_FuncAreaPortalWindow@@QAE@XZ</DECORATED>
+    <FUNCLINE>48</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_FuncAreaPortalWindow::m_flFadeStartDist</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_func_areaportalwindow.cpp</FILENAME>
+      <LINE>48</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_FuncAreaPortalWindow::m_flFadeDist' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_FuncAreaPortalWindow::{ctor}</FUNCTION>
+    <DECORATED>??0C_FuncAreaPortalWindow@@QAE@XZ</DECORATED>
+    <FUNCLINE>48</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_FuncAreaPortalWindow::m_flFadeDist</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_func_areaportalwindow.cpp</FILENAME>
+      <LINE>48</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_FuncAreaPortalWindow::m_flTranslucencyLimit' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_FuncAreaPortalWindow::{ctor}</FUNCTION>
+    <DECORATED>??0C_FuncAreaPortalWindow@@QAE@XZ</DECORATED>
+    <FUNCLINE>48</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_FuncAreaPortalWindow::m_flTranslucencyLimit</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_func_areaportalwindow.cpp</FILENAME>
+      <LINE>48</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_FuncAreaPortalWindow::m_iBackgroundModelIndex' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_FuncAreaPortalWindow::{ctor}</FUNCTION>
+    <DECORATED>??0C_FuncAreaPortalWindow@@QAE@XZ</DECORATED>
+    <FUNCLINE>48</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_FuncAreaPortalWindow::m_iBackgroundModelIndex</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

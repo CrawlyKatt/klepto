@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\hl2\</FILEPATH>
+      <FILENAME>c_basehlplayer.cpp</FILENAME>
+      <LINE>67</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_BaseHLPlayer::m_flAnimRenderYaw' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_BaseHLPlayer::{ctor}</FUNCTION>
+    <DECORATED>??0C_BaseHLPlayer@@QAE@XZ</DECORATED>
+    <FUNCLINE>67</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_BaseHLPlayer::m_flAnimRenderYaw</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\hl2\</FILEPATH>
+      <FILENAME>c_basehlplayer.cpp</FILENAME>
+      <LINE>67</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_BaseHLPlayer::m_bPlayUseDenySound' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_BaseHLPlayer::{ctor}</FUNCTION>
+    <DECORATED>??0C_BaseHLPlayer@@QAE@XZ</DECORATED>
+    <FUNCLINE>67</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_BaseHLPlayer::m_bPlayUseDenySound</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\hl2\</FILEPATH>
+      <FILENAME>c_basehlplayer.cpp</FILENAME>
+      <LINE>67</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_BaseHLPlayer::m_flExitSpeedMod' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_BaseHLPlayer::{ctor}</FUNCTION>
+    <DECORATED>??0C_BaseHLPlayer@@QAE@XZ</DECORATED>
+    <FUNCLINE>67</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_BaseHLPlayer::m_flExitSpeedMod</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\hl2\</FILEPATH>
+      <FILENAME>c_basehlplayer.cpp</FILENAME>
+      <LINE>67</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_BaseHLPlayer::m_flSpeedModTime' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_BaseHLPlayer::{ctor}</FUNCTION>
+    <DECORATED>??0C_BaseHLPlayer@@QAE@XZ</DECORATED>
+    <FUNCLINE>67</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_BaseHLPlayer::m_flSpeedModTime</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\hl2\</FILEPATH>
+      <FILENAME>c_basehlplayer.cpp</FILENAME>
+      <LINE>67</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_BaseHLPlayer::m_fIsSprinting' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_BaseHLPlayer::{ctor}</FUNCTION>
+    <DECORATED>??0C_BaseHLPlayer@@QAE@XZ</DECORATED>
+    <FUNCLINE>67</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_BaseHLPlayer::m_fIsSprinting</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

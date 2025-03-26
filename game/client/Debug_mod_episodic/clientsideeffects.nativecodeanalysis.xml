@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>clientsideeffects.cpp</FILENAME>
+      <LINE>122</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CEffectsList::m_nEffects' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CEffectsList::{ctor}</FUNCTION>
+    <DECORATED>??0CEffectsList@@QAE@XZ</DECORATED>
+    <FUNCLINE>122</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CEffectsList::m_nEffects</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>clientsideeffects.cpp</FILENAME>
+      <LINE>122</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CEffectsList::m_rgEffects' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CEffectsList::{ctor}</FUNCTION>
+    <DECORATED>??0CEffectsList@@QAE@XZ</DECORATED>
+    <FUNCLINE>122</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CEffectsList::m_rgEffects</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

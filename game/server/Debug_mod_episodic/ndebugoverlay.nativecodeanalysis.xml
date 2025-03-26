@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>ndebugoverlay.h</FILENAME>
+      <LINE>26</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'OverlayLine_t::r' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>OverlayLine_t::{ctor}</FUNCTION>
+    <DECORATED>??0OverlayLine_t@@QAE@XZ</DECORATED>
+    <FUNCLINE>26</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>OverlayLine_t::r</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>ndebugoverlay.h</FILENAME>
+      <LINE>26</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'OverlayLine_t::g' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>OverlayLine_t::{ctor}</FUNCTION>
+    <DECORATED>??0OverlayLine_t@@QAE@XZ</DECORATED>
+    <FUNCLINE>26</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>OverlayLine_t::g</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>ndebugoverlay.h</FILENAME>
+      <LINE>26</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'OverlayLine_t::b' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>OverlayLine_t::{ctor}</FUNCTION>
+    <DECORATED>??0OverlayLine_t@@QAE@XZ</DECORATED>
+    <FUNCLINE>26</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>OverlayLine_t::b</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>ndebugoverlay.h</FILENAME>
+      <LINE>26</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'OverlayLine_t::noDepthTest' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>OverlayLine_t::{ctor}</FUNCTION>
+    <DECORATED>??0OverlayLine_t@@QAE@XZ</DECORATED>
+    <FUNCLINE>26</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>OverlayLine_t::noDepthTest</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>ndebugoverlay.h</FILENAME>
+      <LINE>26</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'OverlayLine_t::draw' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>OverlayLine_t::{ctor}</FUNCTION>
+    <DECORATED>??0OverlayLine_t@@QAE@XZ</DECORATED>
+    <FUNCLINE>26</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>OverlayLine_t::draw</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>SoundEmitterSystem.cpp</FILENAME>
+      <LINE>82</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'EmitSound_t::m_hSoundScriptHandle' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>EmitSound_t::{ctor}</FUNCTION>
+    <DECORATED>??0EmitSound_t@@QAE@ABUCSoundParameters@@@Z</DECORATED>
+    <FUNCLINE>82</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>EmitSound_t::m_hSoundScriptHandle</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>SoundEmitterSystem.cpp</FILENAME>
+      <LINE>104</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>6255</DEFECTCODE>
+    <DESCRIPTION>`_alloca` indicates failure by raising a stack overflow exception.  Consider using _malloca instead.</DESCRIPTION>
+    <FUNCTION>Hack_FixEscapeChars</FUNCTION>
+    <DECORATED>?Hack_FixEscapeChars@@YAXPAD@Z</DECORATED>
+    <FUNCLINE>100</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

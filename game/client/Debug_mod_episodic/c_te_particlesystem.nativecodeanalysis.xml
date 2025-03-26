@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_te_particlesystem.cpp</FILENAME>
+      <LINE>88</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CTEParticleRenderer::m_nActiveParticles' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CTEParticleRenderer::{ctor}</FUNCTION>
+    <DECORATED>??0CTEParticleRenderer@@AAE@PBD@Z</DECORATED>
+    <FUNCLINE>88</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CTEParticleRenderer::m_nActiveParticles</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\hl2\</FILEPATH>
+      <FILENAME>script_intro.cpp</FILENAME>
+      <LINE>484</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CPlayerViewProxy::m_iszTargetReference' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CPlayerViewProxy::{ctor}</FUNCTION>
+    <DECORATED>??0CPlayerViewProxy@@QAE@XZ</DECORATED>
+    <FUNCLINE>484</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CPlayerViewProxy::m_iszTargetReference</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\hl2\</FILEPATH>
+      <FILENAME>script_intro.cpp</FILENAME>
+      <LINE>484</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CPlayerViewProxy::m_iszMeasureReference' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CPlayerViewProxy::{ctor}</FUNCTION>
+    <DECORATED>??0CPlayerViewProxy@@QAE@XZ</DECORATED>
+    <FUNCLINE>484</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CPlayerViewProxy::m_iszMeasureReference</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\hl2\</FILEPATH>
+      <FILENAME>script_intro.h</FILENAME>
+      <LINE>91</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CScriptIntro::m_iQueuedBlendMode' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CScriptIntro::{ctor}</FUNCTION>
+    <DECORATED>??0CScriptIntro@@QAE@XZ</DECORATED>
+    <FUNCLINE>91</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CScriptIntro::m_iQueuedBlendMode</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\hl2\</FILEPATH>
+      <FILENAME>script_intro.h</FILENAME>
+      <LINE>91</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CScriptIntro::m_iQueuedNextBlendMode' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CScriptIntro::{ctor}</FUNCTION>
+    <DECORATED>??0CScriptIntro@@QAE@XZ</DECORATED>
+    <FUNCLINE>91</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CScriptIntro::m_iQueuedNextBlendMode</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

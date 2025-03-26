@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>flashlighteffect.cpp</FILENAME>
+      <LINE>77</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CFlashlightEffect::m_flDistMod' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CFlashlightEffect::{ctor}</FUNCTION>
+    <DECORATED>??0CFlashlightEffect@@QAE@H@Z</DECORATED>
+    <FUNCLINE>77</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CFlashlightEffect::m_flDistMod</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>team.cpp</FILENAME>
+      <LINE>80</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CTeam::m_iDeaths' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CTeam::{ctor}</FUNCTION>
+    <DECORATED>??0CTeam@@QAE@XZ</DECORATED>
+    <FUNCLINE>80</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CTeam::m_iDeaths</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>team.cpp</FILENAME>
+      <LINE>80</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CTeam::m_iLastSpawn' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CTeam::{ctor}</FUNCTION>
+    <DECORATED>??0CTeam@@QAE@XZ</DECORATED>
+    <FUNCLINE>80</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CTeam::m_iLastSpawn</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

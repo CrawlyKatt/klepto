@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\episodic\</FILEPATH>
+      <FILENAME>episodic_screenspaceeffects.h</FILENAME>
+      <LINE>123</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CChromaticAberrationEffect::m_bStretch' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CChromaticAberrationEffect::{ctor}</FUNCTION>
+    <DECORATED>??0CChromaticAberrationEffect@@QAE@XZ</DECORATED>
+    <FUNCLINE>123</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CChromaticAberrationEffect::m_bStretch</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

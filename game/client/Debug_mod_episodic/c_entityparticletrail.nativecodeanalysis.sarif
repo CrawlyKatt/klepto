@@ -1,0 +1,2069 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'C_EntityParticleTrail::m_iMaterialName' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "analysisTarget": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/c_entityparticletrail.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/XBLAH/content/Mapbase/klepto/src/game/client/c_entityparticletrail.cpp"
+                },
+                "region": {
+                  "startLine": 67,
+                  "startColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "C_EntityParticleTrail::{ctor}",
+                  "decoratedName": "??0C_EntityParticleTrail@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "C_EntityParticleTrail::m_iMaterialName"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'C_EntityParticleTrail::m_hMaterial' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "analysisTarget": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/c_entityparticletrail.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/XBLAH/content/Mapbase/klepto/src/game/client/c_entityparticletrail.cpp"
+                },
+                "region": {
+                  "startLine": 67,
+                  "startColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "C_EntityParticleTrail::{ctor}",
+                  "decoratedName": "??0C_EntityParticleTrail@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "C_EntityParticleTrail::m_hMaterial"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.43.34809.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/c_entityparticletrail.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "61c2c8f21b748ebbdd1f518d702d59485f5fe830b7b3a618503fc15618292bcd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/cbase.h"
+          },
+          "hashes": {
+            "sha-256": "13d4cae75883f4d75fb45f76526bd090e3c9103768a421e668f8cdbc7e5728fb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier0/platform.h"
+          },
+          "hashes": {
+            "sha-256": "0a87c41c303eb9801eaf22096d6bc2226852d4eb71025a37414570ec504df481"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier0/wchartypes.h"
+          },
+          "hashes": {
+            "sha-256": "4ffe5f2e1b3155c3d22cd4de1ccaaebc7881aac2ce1e1dbf7fdebb5deab5d4be"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier0/valve_off.h"
+          },
+          "hashes": {
+            "sha-256": "3d61910bc9860d0239b4e4b112bf8cba2121d3830491e6eebe4e572fc53a03a5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier0/valve_on.h"
+          },
+          "hashes": {
+            "sha-256": "65e186ed82fcee5effc33266c95fbd277cc218c461fa8c43ff88b53083541e97"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier0/basetypes.h"
+          },
+          "hashes": {
+            "sha-256": "713146abc58cdc74d36cc8f6da4967ec2a6dba715816831bff96fe1b1e42fcb3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier0/commonmacros.h"
+          },
+          "hashes": {
+            "sha-256": "a17534c82649054d405f1a84ddfd5f98d9512488a7448da699485fcf2c299ed5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier0/protected_things.h"
+          },
+          "hashes": {
+            "sha-256": "59d6c726f9f6c4499b497ec098d4388e8dba9b5e20ac52d69ac8833d6062c42e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier0/xbox_codeline_defines.h"
+          },
+          "hashes": {
+            "sha-256": "0e7522820f894fe046c5c42e19f02f03365790479fd3b923dbd0854ad9c93f3b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier0/valve_minmax_on.h"
+          },
+          "hashes": {
+            "sha-256": "fb450f3f15a15d1058bf2289688dd995285c69c8c2f04d94ac9d39419d22e740"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier0/annotations.h"
+          },
+          "hashes": {
+            "sha-256": "9ef2fa10d24d0ae7842dd1b4e3513f45c5a432e0cbd29db9e970013a890148e4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier0/valve_minmax_off.h"
+          },
+          "hashes": {
+            "sha-256": "5465cf0c8b4d095d0f75dc5c3ee469b173eb8bcd143ea82802bc22ae36718e95"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier0/fasttimer.h"
+          },
+          "hashes": {
+            "sha-256": "c916b7af24535082f754fbc5346fe521062e80ad3feedb54cd59d03e42c0e869"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier0/dbg.h"
+          },
+          "hashes": {
+            "sha-256": "9ba9ddc8577611f0503fce2d3139654ba3d6158be62be40f57d47eb89fcc174f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier0/dbgflag.h"
+          },
+          "hashes": {
+            "sha-256": "1bbb5eb7eefd8e2f1d8c5680d79cc7003c3ebcd1e0e5e7ab796d09f1bb3bd3e6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier1/strtools.h"
+          },
+          "hashes": {
+            "sha-256": "2a34c587fc08dbcc7b6ae6c3bfced01e1b7fed0bf94e3e98b345fef4889fee73"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/vstdlib/random.h"
+          },
+          "hashes": {
+            "sha-256": "c2aa8a59dd397bdca0cdae16e3389906c5cc8d42c5acc90c9ad573f3cb3eb4ed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/vstdlib/vstdlib.h"
+          },
+          "hashes": {
+            "sha-256": "0d063a4c39c67eeaea0856bc22f4d0b8e630928bec1461e2565527c874d99eba"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier0/threadtools.h"
+          },
+          "hashes": {
+            "sha-256": "fc80c2a50413c98c6d78b6ced1eba25eb1d8c14b768dad778ca766915f57fa98"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier0/vcrmode.h"
+          },
+          "hashes": {
+            "sha-256": "c549fd887b3857a02bc3475d3daddc6a5305e096d1a21433173396811e9b6378"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier0/vcr_shared.h"
+          },
+          "hashes": {
+            "sha-256": "fea9514bc70fb016720fe50ecb2640c8ec8d86c1eb98c86b3e97f3d3fe3e6500"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier1/interface.h"
+          },
+          "hashes": {
+            "sha-256": "2eb45db6d646aac3927e35741c4c5269d4b92c373969ea3042fac8c21979aa79"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier1/utlvector.h"
+          },
+          "hashes": {
+            "sha-256": "6e2a84c1208082e96b5b4bc9fe6e53f09ea5a2b0f277ad27bd4566e9f68c69e2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier1/utlmemory.h"
+          },
+          "hashes": {
+            "sha-256": "c4c19c7b5aedc3a7f79541ca2f21eba9331eea8940072b251761dfca59f31b8b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/mathlib/mathlib.h"
+          },
+          "hashes": {
+            "sha-256": "55488fa87e7a07e04df3abfd5ee56442296bd0dd9b11420c409c34b528a0e4f3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/mathlib/vector.h"
+          },
+          "hashes": {
+            "sha-256": "a0b7dfa1a809627ad1816e7ec52cb7180cd9f49a880cd2966a8ea90b145ef826"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/mathlib/vector2d.h"
+          },
+          "hashes": {
+            "sha-256": "ae972d80c6cb66adcd7fc60949fcd174c927b5d3689fab082fef5d46759db154"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/mathlib/math_pfns.h"
+          },
+          "hashes": {
+            "sha-256": "1bd0431d16ce9297342571df2aba4daeee924ed705d09d07be2ba9dca9e0d47e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/minmax.h"
+          },
+          "hashes": {
+            "sha-256": "d9ce1c118d924f084e716ec5aee911f52d1bb15c528b9aef05544e8fe7347f89"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier0/memalloc.h"
+          },
+          "hashes": {
+            "sha-256": "155fe961f2f6905efa96266c71d297508710e022705c7254f3748a7a132970e0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier0/mem.h"
+          },
+          "hashes": {
+            "sha-256": "afda96a9ca42c787f1a33cfb4cf46056cafe5819d1fbe2d9942639ea434ea4f3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier0/memdbgon.h"
+          },
+          "hashes": {
+            "sha-256": "5e3fef5dff1c8a4344ca9218d05c9f04a726330d96f30267f33c6d177ac57c63"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier0/memdbgoff.h"
+          },
+          "hashes": {
+            "sha-256": "75325a022f28cc3c18a7b2e5730b9db1f1f20d431b4f5837ebcb179271d4a842"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier1/utlblockmemory.h"
+          },
+          "hashes": {
+            "sha-256": "a2db5ee626b1e0445bad85d2ac097a32f71836ac829e7cb8e075e47313c2f0bf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/const.h"
+          },
+          "hashes": {
+            "sha-256": "153462598ae1ca31bb17ca8c2350097f89066764dff996d9183479d8e62f5316"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/string_t.h"
+          },
+          "hashes": {
+            "sha-256": "6592ecd9818deee7263c85ba93f19b43bc6c67868634c969d412fd69d7118860"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/predictableid.h"
+          },
+          "hashes": {
+            "sha-256": "e131d9e94c50442358089fcd5dc3e17bb88cf318aa5313af1ea43920e02f2e2e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/predictable_entity.h"
+          },
+          "hashes": {
+            "sha-256": "3377d07a9a81f7fd4755f10579f6f82f4ddceb2eb1f68330112a5a430548b4c1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/predictioncopy.h"
+          },
+          "hashes": {
+            "sha-256": "18ffb1d500f041d8880636419fd9d21fe454875fe298f4e9fc72a43e7f1e4b3f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/datamap.h"
+          },
+          "hashes": {
+            "sha-256": "5db231d71b10d99f6eabc61bd7b6b2c7f2f25d6666937ed67f5a30f7ea0ba4fc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/ehandle.h"
+          },
+          "hashes": {
+            "sha-256": "eca024e23c513a692f057fc901eb70aba47fec0d0d5062dce55501f4c1228fc2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/basehandle.h"
+          },
+          "hashes": {
+            "sha-256": "42b7a8125fc8dd37675e59821221426577713f20984098e35bd0ed57481da881"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/ihandleentity.h"
+          },
+          "hashes": {
+            "sha-256": "e17c7b1463c457c8f156ea9fff86cbe6797069d656bcb07b30a9ae71a13e2517"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/entitylist_base.h"
+          },
+          "hashes": {
+            "sha-256": "dae0f5b2cecd049ecfb16a202ba25df8b24ba2e88adf8e454681cf864f7861e6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier1/utllinkedlist.h"
+          },
+          "hashes": {
+            "sha-256": "07fe337dc640ec9ae898d8794b13137ab432663d72036098042b48ff7460ed20"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier1/utlfixedmemory.h"
+          },
+          "hashes": {
+            "sha-256": "bcd68e57c60c2ebdb621cc7454010936dcea5b173ffefa9ebdda4042e3716449"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier1/utlstring.h"
+          },
+          "hashes": {
+            "sha-256": "c7eece12a23a37b3783badcb6480d229a9ce2529fe6378240fc468b69a4f512a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/shared_classnames.h"
+          },
+          "hashes": {
+            "sha-256": "679183270b6bb5005fa9540344aaeef0e7b31161e4cf1bf096bddf239a6dc7a5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/iclassmap.h"
+          },
+          "hashes": {
+            "sha-256": "8dc74f09a88e58f91aff224f919640cf1073c3c8483768118f26a31f4f51fa2e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/recvproxy.h"
+          },
+          "hashes": {
+            "sha-256": "9f754b27b307c10cbdaa8fad20e39bc39a22369d29e9a3be0a8ae32df8adfd95"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/dt_recv.h"
+          },
+          "hashes": {
+            "sha-256": "85993e010e6a23e7819acca9d1e35873fe70c60345513e222eeb44053020f451"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/dt_common.h"
+          },
+          "hashes": {
+            "sha-256": "ea3c35718325fe080ef3749776cecc2ae345d7a226627a0a3291933d6d9e0733"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/cdll_util.h"
+          },
+          "hashes": {
+            "sha-256": "0bb92abab470a35efbe39d880dcbbc03b4acbda6d4146b8d10742d4ba2eaa50f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/soundflags.h"
+          },
+          "hashes": {
+            "sha-256": "78f110e6456615051560a177ab4e48197332960f81b0b5dc545d2c6d27124ee0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/shareddefs.h"
+          },
+          "hashes": {
+            "sha-256": "19482cccc83c62b4008a33616d2769951ed055617da429042f1ca49629acee3d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/shake.h"
+          },
+          "hashes": {
+            "sha-256": "bd3c86c370bf68f14728e71c5c06e0fa02f25d1fd364d01faec092d66c02b639"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/bitmap/imageformat.h"
+          },
+          "hashes": {
+            "sha-256": "90c132b636307d95e316a9cb128d30a4b7c44cd62ca561f9ea67b49528dc821e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/ispatialpartition.h"
+          },
+          "hashes": {
+            "sha-256": "69d19aa176b73e34c0ac1bc8a5988e6e9a54ad177c2e9aefdffbb187d9b90852"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/materialsystem/materialsystemutil.h"
+          },
+          "hashes": {
+            "sha-256": "537a68f8b4c0e30884820eb5e2ffa9e23d1571ed2b430027fbedac40c12fce66"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/materialsystem/imaterialsystem.h"
+          },
+          "hashes": {
+            "sha-256": "71ad3fa195303bb3e6e4706ff56ae75cc81569f81b886d7087cd160ef644598e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier1/refcount.h"
+          },
+          "hashes": {
+            "sha-256": "61033a60acaffa3fe42b64e5683c085c375389b443e36d2c933526a5d2b6e8fe"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/mathlib/vector4d.h"
+          },
+          "hashes": {
+            "sha-256": "64a5a93d31c59faeeda10a8d4b70332e6a2500901e836d268ee70dd1b2eb1a24"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/mathlib/vmatrix.h"
+          },
+          "hashes": {
+            "sha-256": "36f5906c74bf7ea84ec1751198716b53cb52f5b982dd54cadd0f28da0a5d7dff"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/mathlib/vplane.h"
+          },
+          "hashes": {
+            "sha-256": "201ca86f8479a111ba8944a2ab387d6adaa3b8ffa670d0cb6f7f26d02d9dac4c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/appframework/iappsystem.h"
+          },
+          "hashes": {
+            "sha-256": "739d142c3d054152b4e4af0e8dbfc22f13323b58ab6c711fb0f4798f08ff2dbb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/texture_group_names.h"
+          },
+          "hashes": {
+            "sha-256": "a00a9c38dffbc0ffb036e06b8dc4899c36e459cdd245f1d475d84e429bb06c5b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/vtf/vtf.h"
+          },
+          "hashes": {
+            "sha-256": "91eb4dc36762333d627e0980b4cc1d17d8d32b6cc1156e271c9ad66a1fda1720"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/materialsystem/deformations.h"
+          },
+          "hashes": {
+            "sha-256": "89dfd7ec86c57bca28a60c206087c55dd947f94963e9ebd2749f075816065ac6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/materialsystem/imaterialsystemhardwareconfig.h"
+          },
+          "hashes": {
+            "sha-256": "7a101ecc98f8bc9c5a4143335be83f3982eac6d15716a850be4c123479bbd543"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/materialsystem/icolorcorrection.h"
+          },
+          "hashes": {
+            "sha-256": "97740dc0c7818d494f9fcfb6035f9c7bc22b889613b0f21270a72c3268b10fb6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/mathlib/lightdesc.h"
+          },
+          "hashes": {
+            "sha-256": "a5f9a583d5ffc74fbacf692528eed16968366c77f241efc68004ce1049a6c843"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/mathlib/ssemath.h"
+          },
+          "hashes": {
+            "sha-256": "011d3ec2bdd69380ba16857fee008b909f131ac3a11c24439277736472c565bd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/util_shared.h"
+          },
+          "hashes": {
+            "sha-256": "701cef3366ca1d7d72b2f1b27bc0ee613cd29b68fcd192dc3cdd690b67ede5b2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/cmodel.h"
+          },
+          "hashes": {
+            "sha-256": "844077be7c5f392b1b79d87620103a84995e4419dfe6efc4fdeb424123e031f2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/trace.h"
+          },
+          "hashes": {
+            "sha-256": "0011f09b806ac8a1b9ec7ce9e75068811981054addbe9587014fd53ad807c5c9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/bspflags.h"
+          },
+          "hashes": {
+            "sha-256": "1d40dc6c8bf53d98f7a742d87a01c0cf22992ba20a1fcc5e63a3f7cc296abf18"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/vcollide.h"
+          },
+          "hashes": {
+            "sha-256": "5754878b83b66c1d48b60fedd671e2d5f6c5be254dd082ad4f45c640489188cb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/gametrace.h"
+          },
+          "hashes": {
+            "sha-256": "20cb597b8c87a162488c9b907ecd11abd3f19f4cb70e6e0cc92055a7162fb84f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/networkvar.h"
+          },
+          "hashes": {
+            "sha-256": "bc073079fd1b1d057029b097bb3466e5270f369a67d4fb9c51420c22e10b6ead"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier1/convar.h"
+          },
+          "hashes": {
+            "sha-256": "97588b59ca9a02afb413de3b20ed12a08546de6464cc67af850f9f79422e8909"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier1/iconvar.h"
+          },
+          "hashes": {
+            "sha-256": "5919595f250b1f66a03429694089e755289d384f0912aa1135363c2cff298a60"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/icvar.h"
+          },
+          "hashes": {
+            "sha-256": "8dfe9d64081ae703b4794be6bcf0e0849cd6cb4e59b2c95b64967f6f7d526962"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/color.h"
+          },
+          "hashes": {
+            "sha-256": "e4907383ed4c89526dac086abc2261df68a14ed14408776ac01654793c0bcc94"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/engine/ienginetrace.h"
+          },
+          "hashes": {
+            "sha-256": "c9c6c1a3ff22fc263d84484d9a92586e14d78b79be6ea42801bb4f7124276f3f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/engine/istaticpropmgr.h"
+          },
+          "hashes": {
+            "sha-256": "0cda339ba35df06b55813d3efccbf0e7232bc72de8c897fc93030327110a54eb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/cdll_client_int.h"
+          },
+          "hashes": {
+            "sha-256": "8c39a67ba0b3b6e55e549c2e4b5e8366fdde3f9b3e1f5835ac475a02e552eec9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/iclientnetworkable.h"
+          },
+          "hashes": {
+            "sha-256": "cbf171d9a1c67a44be636ce249c461f57178e915f48178c70315ef8817b6f521"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/iclientunknown.h"
+          },
+          "hashes": {
+            "sha-256": "44b3b2971ea64ed125f4cc7c8f770c6e56f14704a6dc989ca0ea5bc74fd6443a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier1/bitbuf.h"
+          },
+          "hashes": {
+            "sha-256": "b4fa91212721da5295e4427df9dd7873353cc0b8fd38095829dd7f97dc0b2ff1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/cdll_int.h"
+          },
+          "hashes": {
+            "sha-256": "72666ef852075dcdff6d0c1646f3cf362206553aeb058457c7efec8b46bdb811"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier1/checksum_crc.h"
+          },
+          "hashes": {
+            "sha-256": "a24fe7eca5d6f7fe4b1dae135d02f287ab8d4d3c48c9e1e5bde416ec4671ab25"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/inputsystem/buttoncode.h"
+          },
+          "hashes": {
+            "sha-256": "3b96dd67537cd28f5273cfd9ea6d2751e34c40153bf20463970a0c1e6c10566f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/inputsystem/inputenums.h"
+          },
+          "hashes": {
+            "sha-256": "1ce8df4926afa8502e9931866ad03cbf7331422d665d98c7c868b5170011694b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/modes.h"
+          },
+          "hashes": {
+            "sha-256": "19ad58d788e93cd33c3da27e30a31e30b7b983bde28316a5cc9c1d8de3f97f0b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/common/xbox/xboxstubs.h"
+          },
+          "hashes": {
+            "sha-256": "48fde83d0ac3fe5cc1a6be7499171336fb13e1e1cbc09210075442fec76fb038"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/eiface.h"
+          },
+          "hashes": {
+            "sha-256": "ced52abd464f48a02cd65da0f30d1b3cb42696561909c428be5e980d0fe4281f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/edict.h"
+          },
+          "hashes": {
+            "sha-256": "70914ec066dacd886a04ec9c5b625375f30c52c99d9385abf21da02b3a9e6702"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/iserverentity.h"
+          },
+          "hashes": {
+            "sha-256": "08996b873e250524f93ea5e599761ca6a43e09f2bf67cff97c11276c9fc64f4b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/iserverunknown.h"
+          },
+          "hashes": {
+            "sha-256": "1030a9b34bf130953c6ee991fee6f1e79a52caba7dafeda088504e1453cf8100"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/globalvars_base.h"
+          },
+          "hashes": {
+            "sha-256": "6543f3ced697bb0fe7782c45016a988db41265b62681a1d5d5124728abd540a7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/engine/icollideable.h"
+          },
+          "hashes": {
+            "sha-256": "f1920f9db568f23d9bcb194c076e87032d767581231438a5306f84612c7e1c00"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/iservernetworkable.h"
+          },
+          "hashes": {
+            "sha-256": "f727b6cfdf549dc76b658868ddab3c179700adbbafeb140ddf817806dbaba48e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/bitvec.h"
+          },
+          "hashes": {
+            "sha-256": "b71296a64f4ff4ccefd0aafb8abece53dc335eb4aa7bfff4ecb58bcc4dd6116b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/bspfile.h"
+          },
+          "hashes": {
+            "sha-256": "c0ed2d630aee3d1a968a0be9c5f1562705492c1132eb6765020217086cdb7238"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/mathlib/bumpvects.h"
+          },
+          "hashes": {
+            "sha-256": "4fe080e1bf9ef541b111919f649fbb92959e05d3c8a3f7ef28e451307187c23d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/mathlib/compressed_light_cube.h"
+          },
+          "hashes": {
+            "sha-256": "400b8033545343072deb16f86f2a996748dd62a99f02768171d0eb631dc09d56"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/zip_uncompressed.h"
+          },
+          "hashes": {
+            "sha-256": "9fb7d96da3977e9cbd51d463479f2d487180a949ed65151ebafe41bd6c0a41c7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/engine/ivmodelinfo.h"
+          },
+          "hashes": {
+            "sha-256": "f54ee0a26e7b8482c6edadca631fa88ec5fec9cc119e46d882f0fc8ed638cd44"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/engine/iserverplugin.h"
+          },
+          "hashes": {
+            "sha-256": "f0507bbfaeadfdbc369c0aa69014ca6247d320de3e165cb9e6c9cdb6a6afedba"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier1/keyvalues.h"
+          },
+          "hashes": {
+            "sha-256": "fe0e19d8c21818eb4eb3308d0044946e61e10cdac768c1876d647d63c4974ef0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/baseentity_shared.h"
+          },
+          "hashes": {
+            "sha-256": "91d5fac9fddad77b97d08b2223d4389fcc9f04c7e860fbfd671692375e8326c5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/c_baseentity.h"
+          },
+          "hashes": {
+            "sha-256": "f8389a1063bba514a4bc1c0bfa4b322e7d7aff80eb8fc95f097c51fcc7288b1a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/icliententityinternal.h"
+          },
+          "hashes": {
+            "sha-256": "e0b5cbf885c9e9f28074ef90bed5125b20934b1b0416643cb1281562372b274f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/icliententity.h"
+          },
+          "hashes": {
+            "sha-256": "8412c7f8b4ec0f474b3e55376a5e756013382486729c4bb37c41a8b685f9a820"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/iclientrenderable.h"
+          },
+          "hashes": {
+            "sha-256": "af1edfc381085dc1799d81589540e5a66cd49bf07991c24d567c0c626b5fefdc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/client_render_handle.h"
+          },
+          "hashes": {
+            "sha-256": "9e3e596e81e14d8504de9ee103c507d219085cc629c6a975aaee9fe532af523d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/engine/ivmodelrender.h"
+          },
+          "hashes": {
+            "sha-256": "6bb3d5809a99b69380dd82f2a39bfc4491620892e6abd263106c39a4293536da"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/istudiorender.h"
+          },
+          "hashes": {
+            "sha-256": "03deeab766142420929e4397275cb068747a1fcb21aee4481358d83c23ed0cc4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier1/utlbuffer.h"
+          },
+          "hashes": {
+            "sha-256": "a3bc536860a823af653804bcbbb76aad66d1b66c9a418f9898731a6d82621db6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier1/byteswap.h"
+          },
+          "hashes": {
+            "sha-256": "0bb72dd370f4e3fd65c4a964c7ea576f61d6ba5b319345c81149fc34a6d03b17"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/materialsystem/imaterial.h"
+          },
+          "hashes": {
+            "sha-256": "a2235257ba317dba6ff7a389d85875687d18dfceec9239093d9f2dd7f7cd16d1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/datacache/imdlcache.h"
+          },
+          "hashes": {
+            "sha-256": "117e1d1baad4ca9ea65a863b7dd5eefe72f71e6c0d5b4c6666584bdc0e2ea684"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/studio.h"
+          },
+          "hashes": {
+            "sha-256": "35218dfeacd47e8ee2ee9e010e9bfba7c7c181c138831eb6473e127cecf97809"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/mathlib/compressed_vector.h"
+          },
+          "hashes": {
+            "sha-256": "74752430fea98db28d5a82e3a331ea3150db176abbd8fd9d296f2ddfbfa9b5f5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier1/utlhash.h"
+          },
+          "hashes": {
+            "sha-256": "b9752b26fd7051a22053a8e4205b8e413ccf56d1e51d31edfab0e600897f25b3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier1/generichash.h"
+          },
+          "hashes": {
+            "sha-256": "2e717ab3e87a1c828f2e681372311904f0b457d60f2bb9b58910a8c5cfcd4428"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/localflexcontroller.h"
+          },
+          "hashes": {
+            "sha-256": "246521ab407d2b64cf0d971cfb297a837b0bb228d9e0120f7a33df4f01cb40d2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/iclientthinkable.h"
+          },
+          "hashes": {
+            "sha-256": "6fdfda5e9ed96571146cc30b45b72e94a548d6d03f7775564dd34ba088a57d1c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/clientleafsystem.h"
+          },
+          "hashes": {
+            "sha-256": "b4fd6e6c2ff8ced3c978f1cad74af58287cf47eff9a42a274cbbc78666be4762"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/igamesystem.h"
+          },
+          "hashes": {
+            "sha-256": "f090926823ce7a4e6aeedc11c03a17405b1a6d3628d91f54defbb6c49ddbfef5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/engine/iclientleafsystem.h"
+          },
+          "hashes": {
+            "sha-256": "abd4c8a1c1576f3282873e5166f99aedbff60b20fb4916a92a499b74b4eb734b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/ivrenderview.h"
+          },
+          "hashes": {
+            "sha-256": "15baea4b33a0b528aea59e9d609dc008e84b51b3b39b20d57d3c7e8df5eda458"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier1/mempool.h"
+          },
+          "hashes": {
+            "sha-256": "cb7c592911747cec9494ad39eb77589cb327880f06ba9fcd8dbb52944eb46e58"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier0/tslist.h"
+          },
+          "hashes": {
+            "sha-256": "47f0439539cbf9f66cb21262573926783237a51d11a4bba0c08bd887072f9c92"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier1/utlrbtree.h"
+          },
+          "hashes": {
+            "sha-256": "68b15299e0cb4eedea04990409705f7607b0d0a80ec25622c12b071d53ef9656"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/client_class.h"
+          },
+          "hashes": {
+            "sha-256": "124f83e262e57964e10d97c6e3359b6c5491a4f072cb297e8b726060cd430103"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/iclientshadowmgr.h"
+          },
+          "hashes": {
+            "sha-256": "af25416e4118487398900e23c13840b8efcf3e2ecbb5a6232e6ea6fe36cac3c2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/engine/ishadowmgr.h"
+          },
+          "hashes": {
+            "sha-256": "4d74f92e7cd4ff2737b5f2bfc877503d2c45f46d48c4d5346c8182442e18f6b0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/toolframework/itoolentity.h"
+          },
+          "hashes": {
+            "sha-256": "b0d8e10c555731cceab57bf12a8371b4678e3456d1f39046bf384fb7b6c6a9f3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/client_thinklist.h"
+          },
+          "hashes": {
+            "sha-256": "c926f870a12cc8edf13cc520ed4303d65625620cc8113e3462c9d8eae8269d68"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/cliententitylist.h"
+          },
+          "hashes": {
+            "sha-256": "ea799f2b2d170c0120780a381547e102207db6dff21a3c4503ce705c6fe50d93"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/icliententitylist.h"
+          },
+          "hashes": {
+            "sha-256": "076e2d179f51bd65f56918dd1f7d783b29d4823e72882bff6e343b4970190714"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier1/utlmap.h"
+          },
+          "hashes": {
+            "sha-256": "29b18c7b690872f0f224ece4cb6b8b42e793e3976954397db24a4100a740ae24"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/interpolatedvar.h"
+          },
+          "hashes": {
+            "sha-256": "1f1d49f06a2ebecd5b9718d5c09094e61444289786f0fc225204f31588e31eed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier1/rangecheckedvar.h"
+          },
+          "hashes": {
+            "sha-256": "270baaf9e0c288ac60e57ad608dd5525a0e60ac425b8175d4d3830404710239a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/lerp_functions.h"
+          },
+          "hashes": {
+            "sha-256": "3a38ba21cf2bc8b202cc5066cf773445e3a048b1cf92db6f8c36d5a030eb6268"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/animationlayer.h"
+          },
+          "hashes": {
+            "sha-256": "2acaa56ffb8926f14bdccb6e4ca997c1e80138d5f490478b9803f5716d52f71e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/collisionproperty.h"
+          },
+          "hashes": {
+            "sha-256": "8468be102610515ef412bbf0789f6c91bf6d473932428df0850ef5a2b02013e9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/particle_property.h"
+          },
+          "hashes": {
+            "sha-256": "551f619cecbc57be4d304d0350eb0ac03eb5fbaeb2d36703094dc9701265627c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier1/smartptr.h"
+          },
+          "hashes": {
+            "sha-256": "2693a31a69d70a7f3d7b63494126a7634605cc20a6db312c6d9c6118314b3af1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/particles_new.h"
+          },
+          "hashes": {
+            "sha-256": "d6716007333711f0d7a1bee6ad03e7d03376205699f75288a2f8e46c4c799817"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/particlemgr.h"
+          },
+          "hashes": {
+            "sha-256": "6930ad8e7f6ef7b289f6c4e895829c3b43fc77136464ef2ba6b1194055be8396"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier1/utldict.h"
+          },
+          "hashes": {
+            "sha-256": "313b2e0e5af25b59ed1116100766b4d548d331f14c38d160119cb5794825be0b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier1/utlsymbol.h"
+          },
+          "hashes": {
+            "sha-256": "42119ce63a1185daa0d90c196449f05ac81d4a497efeab68a0ebab4420c60203"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier1/stringpool.h"
+          },
+          "hashes": {
+            "sha-256": "97b1e0b80742fc2b34bf017965c95c31756466d8e3b0c915e6ab3ee62324e86d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier1/utlintrusivelist.h"
+          },
+          "hashes": {
+            "sha-256": "a130dd224da30da98021593ee2c719e60d4a25aa1ec633e145b819664a6b7da1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/particle_iterators.h"
+          },
+          "hashes": {
+            "sha-256": "69332fe51ec53d71444f26cb05582d62b00f5c05860bf8eeba5055bd86bdfab5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/materialsystem/imesh.h"
+          },
+          "hashes": {
+            "sha-256": "0ec8c70de111cc5adf4dd06c1a0401509fbb06d224620c72a71666fc28a72c80"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier2/meshutils.h"
+          },
+          "hashes": {
+            "sha-256": "47ee2c95d068cb83cd92b540601dfa801d0458d5ac106c4643211f8b7b2509bf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/materialsystem/meshreader.h"
+          },
+          "hashes": {
+            "sha-256": "cfc5f2bb569290917f1b56eca3fee8a25cbc536d04fea430aa86bf4e1a4d0f21"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/particledraw.h"
+          },
+          "hashes": {
+            "sha-256": "c61ce81bff420c79ba3330ccbb2e6765dd2142b51e3d060e891f863a380fdf44"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/particles/particles.h"
+          },
+          "hashes": {
+            "sha-256": "8488c9406912ce7d0f86daf79e2f9295e449c1efff0579a71ecf1e114cfad04e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/dmxloader/dmxelement.h"
+          },
+          "hashes": {
+            "sha-256": "46a432b2049d86aecaf35f8d7cbb64a08da0b5e93149a12c513a820b1f152a4a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/datamodel/dmattributetypes.h"
+          },
+          "hashes": {
+            "sha-256": "7cf5dcdba112f5739d3d46a40658022c4cbdc60477838eaae2f6d27663a28f58"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier1/uniqueid.h"
+          },
+          "hashes": {
+            "sha-256": "a2e1b109d4b08777a12173a2b377b2d8f9b6d3c647ddbf6adf30623f8845fa72"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/datamodel/dmelementhandle.h"
+          },
+          "hashes": {
+            "sha-256": "d7696163909a22b25cce656ab6ed3d5cea460759de75ca3b809c108e631baba5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier1/utlsortvector.h"
+          },
+          "hashes": {
+            "sha-256": "57ff256d015e13ef57449369b73353e9ca850834485ff82f003c260478ff015e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/dmxloader/dmxattribute.h"
+          },
+          "hashes": {
+            "sha-256": "37f6f26b4562605ab08901d1b30693bf73fb896f940924311169e3b7238f77a8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/dmxloader/dmxloader.h"
+          },
+          "hashes": {
+            "sha-256": "1fbbf01d5711efffacbb2a7bc240a5cdad470e7399a633f216ee640e2190fa97"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier1/utlobjectreference.h"
+          },
+          "hashes": {
+            "sha-256": "42929715d0a7dd9311cbbe9cfeeff97fe77240abb26ff48530cbf828c9e0ea43"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier1/utlstringmap.h"
+          },
+          "hashes": {
+            "sha-256": "133023e74edc7d205e8cfdeffa5aaa2a66b189cb1c42b68d3d850e1384a1f8cc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier1/utlsoacontainer.h"
+          },
+          "hashes": {
+            "sha-256": "0ad142f926987cca3c16ec8f79eb96c20a0240613f5d2071356e2cb4d69178bd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/c_pixel_visibility.h"
+          },
+          "hashes": {
+            "sha-256": "21d884b027a8a9b03e8358a7feaaa5ec930b82f142ed449a122e459524773bb5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/particlesphererenderer.h"
+          },
+          "hashes": {
+            "sha-256": "7d29ea8a5aecd3a692e205650fdf23694be75528daa872edf95857d753cfadf3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/particle_util.h"
+          },
+          "hashes": {
+            "sha-256": "951a2e80f83b500ceb79a4a67abe1dee6f08ba63d57afaa65c210b14c6eefacf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/timedevent.h"
+          },
+          "hashes": {
+            "sha-256": "a29999a6328a74b94a4987e1e0a2be76d2bc8a542f3ac7d38652ec683395ae42"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/particles_simple.h"
+          },
+          "hashes": {
+            "sha-256": "6894aaeb273060fbd5f9031c671c9922a7b72afb72c470dc83f2145934a26678"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/particle_parse.h"
+          },
+          "hashes": {
+            "sha-256": "70fd373e270832a1361834b61c73cc8e322852a50a9edab18168115ba77653ec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/ifilelist.h"
+          },
+          "hashes": {
+            "sha-256": "29ab1b409715840021a6ed092f57a9291f8eeb95358e5f02aeb8b161bfadb8d4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/particle_property_inlines.h"
+          },
+          "hashes": {
+            "sha-256": "299a892d14c36cef19bb25bc61101a29a19f666f15cf582a112e5dc1760557ff"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/vscript/ivscript.h"
+          },
+          "hashes": {
+            "sha-256": "5b4ef34dac5667277fb4cef603d48a86c53fda680f83091698049f3686b7e8fa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier1/functors.h"
+          },
+          "hashes": {
+            "sha-256": "2a125b5c0e0aef64888282a3350c953d2d37add9c781ba97333e29ff532c9aa8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier1/utlenvelope.h"
+          },
+          "hashes": {
+            "sha-256": "0be6b617454e55c3ed41022cf105a2267b3a8716c0c466336d73230d01c9b564"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/vscript/vscript_templates.h"
+          },
+          "hashes": {
+            "sha-256": "d52cf161ffc9dba72b76c0b987daf1656442f8d2267250731eac7a662b07852e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/vscript_shared.h"
+          },
+          "hashes": {
+            "sha-256": "8f2e785fd3134b313c8766d514324e7e01e44b7da9abb3163a3ce38b8c78d4b9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/touchlink.h"
+          },
+          "hashes": {
+            "sha-256": "38707236cc14b0d526049e044c2151c982e383f88dfbabbd75c7018ae31e99c4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/groundlink.h"
+          },
+          "hashes": {
+            "sha-256": "78307069bf27c417bde3cb901143fa4f7d3c82f2d3ef1740f5f0560672faf698"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/c_baseanimating.h"
+          },
+          "hashes": {
+            "sha-256": "21df99e59cbe03393e3602215fc2a7a29c528b3045666117fd5fb7fbb65e2959"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/ragdoll.h"
+          },
+          "hashes": {
+            "sha-256": "a9c579756aeb8e51cb50fb0a7b9d950111d6637f98487a88017e3f2d8639a963"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/ragdoll_shared.h"
+          },
+          "hashes": {
+            "sha-256": "e858d1bbf579a7a5460971df0638f67efd4f0cd2901ebb7378732cf85195f59f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/bone_accessor.h"
+          },
+          "hashes": {
+            "sha-256": "f206614b17250690fb67b48fb1e775ca4f7a55a38976f6bde21efd717e9ffab7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/mouthinfo.h"
+          },
+          "hashes": {
+            "sha-256": "86beddd6b351a3a1fe786e4b9035270dee06ca7521888f9a3307d8bdc7591eb8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/ai_activity.h"
+          },
+          "hashes": {
+            "sha-256": "4b13faa3103c194b24e65605927fdea1f65d20d7d28f41df0c0481681ce354d5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/sequence_transitioner.h"
+          },
+          "hashes": {
+            "sha-256": "262e995953febf7b4bd092d3fce0843a944e9964d18a90b8384979218bf1f5d0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/bone_merge_cache.h"
+          },
+          "hashes": {
+            "sha-256": "e7982c7f725c6dcd1aa0105632d54d7adff8160f385fa96ea88450a39d4b7ed5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/datacache/idatacache.h"
+          },
+          "hashes": {
+            "sha-256": "329ba833b80d74b8607ca7eb0887714bf8e1381f22e98b8b2d949df67349094c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/tier1/mapbase_con_groups.h"
+          },
+          "hashes": {
+            "sha-256": "5f7e4d682da9a6a09cfeaa6191ebc57790c3cdc60f40d8ee5fcc2e471a05613d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/precache_register.h"
+          },
+          "hashes": {
+            "sha-256": "d7dd36c13f19526ebd5e45052d649379c48dd9428d4f6daafea33e7ed38c4cdd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/c_basecombatweapon.h"
+          },
+          "hashes": {
+            "sha-256": "f65d56b569e4643f736d7b1c0852bfe069243879583f52f94bc5fd52bf1c3140"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/basecombatweapon_shared.h"
+          },
+          "hashes": {
+            "sha-256": "03569d767a8be10942fc83b6ac2bcc4796e5579a993379d9973b767a9a2aef59"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/sharedinterface.h"
+          },
+          "hashes": {
+            "sha-256": "049b881d0612971db7d70ffa25e1bdd6195e6525639577392be389cb800acd9e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/vphysics_interface.h"
+          },
+          "hashes": {
+            "sha-256": "50d8c63431372af42aa2db56eb18f45d4c14efcf8b1490087ad60dad424d006b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/weapon_parse.h"
+          },
+          "hashes": {
+            "sha-256": "cc5b9490ecdc7967fb24d66a7015696285a607376a73ca463675f62ef2ba3ee1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/baseviewmodel_shared.h"
+          },
+          "hashes": {
+            "sha-256": "27ed30d54c1ba9d808e9cfc996057d3852c0170c957aa11541fa95d6bab5c1c5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/baseplayer_shared.h"
+          },
+          "hashes": {
+            "sha-256": "8df90a4c292c1224a30747cf74382dcd8ff0b5db37c909dbc5e2a4cd70347795"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/c_baseplayer.h"
+          },
+          "hashes": {
+            "sha-256": "7793e9b0331365c6825a35b9b6e256045d9c2ff7c27e832dbe98132c276bb949"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/c_playerlocaldata.h"
+          },
+          "hashes": {
+            "sha-256": "09bcf6792eabbf7b7caa6935186ad4804c64524981027d7f96f02eac179a9a91"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/playernet_vars.h"
+          },
+          "hashes": {
+            "sha-256": "6d5f7fd505224aeb359fe120e90c69f4a14c1f2e965bac44e4b205261ecc8374"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/c_basecombatcharacter.h"
+          },
+          "hashes": {
+            "sha-256": "4b4fbcfca2557f8def28138273a1fc84945f1699caa9092c76e6166b7be32eb5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/c_baseflex.h"
+          },
+          "hashes": {
+            "sha-256": "4903ef0d74a326268ea6664d2b0df0ff9ab3aeb3b7743b1a5c4566501ace21b9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/c_baseanimatingoverlay.h"
+          },
+          "hashes": {
+            "sha-256": "15c16eff90798a1a2e1155be430dd28a7403aa854425f55ca7e491ff78ca056f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/sceneentity_shared.h"
+          },
+          "hashes": {
+            "sha-256": "4f686498a7bab90bf1a0caa21159bc2431c99d6bbc22fe63f650f6e99ddf96a2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/iscenetokenprocessor.h"
+          },
+          "hashes": {
+            "sha-256": "183f3ce1194abb559182aafed0109792d46d9ede9e6f1a55cd85976a0fcf1734"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/glow_outline_effect.h"
+          },
+          "hashes": {
+            "sha-256": "5865bb12f39d100c51f3e3a1eed6af7fe8ecf1e3695adc0fed1619ba34221b12"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/playerstate.h"
+          },
+          "hashes": {
+            "sha-256": "57e7e7bc045684d04d51c25631d22c38bce42e80341761827dde883299b3ba36"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/usercmd.h"
+          },
+          "hashes": {
+            "sha-256": "f3086ab03c756d0f73c98b367233bc66d894a62ea27a0c84c92cd99735d5525f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/imovehelper.h"
+          },
+          "hashes": {
+            "sha-256": "41ca05a7643e5853a17812111c052ccd805a7e587e59d5187e84237375e3b58c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/fx_water.h"
+          },
+          "hashes": {
+            "sha-256": "1cc6d12e219ae7cae2e2508b5a217c5bfe1cd3ba3d913e2471e2edb03c3a2371"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/fx.h"
+          },
+          "hashes": {
+            "sha-256": "4b09176b2fb1b218c880ba241528dd51d6b4038ffb8030c2d5e5e66c7c6ecab2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/hintsystem.h"
+          },
+          "hashes": {
+            "sha-256": "d3cbd6cbee22aba0456ed8661c6b98077c2feb7dc70fdac0059385ee6f5467a9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/soundemittersystem/isoundemittersystembase.h"
+          },
+          "hashes": {
+            "sha-256": "c8253da7a7402418ef933aa41e6b66aa52a2b112c33e8fcd525c283fd7e7d418"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/c_env_fog_controller.h"
+          },
+          "hashes": {
+            "sha-256": "b41eab0d08bc7996411765d4a9ef154859ce2471b033444a55d60d1468845c26"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/c_postprocesscontroller.h"
+          },
+          "hashes": {
+            "sha-256": "b2f58beabeda46ffd13bbda72c5e2e76c0a222d32c2e4230b4c8d11369224141"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/postprocess_shared.h"
+          },
+          "hashes": {
+            "sha-256": "5b46297d5a8d6da949e9cac7236055df68ff91c8a1b7f3c0e7cd92687548877b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/c_colorcorrection.h"
+          },
+          "hashes": {
+            "sha-256": "446adfd057f00496d055b0ea29af2477ae0b2074b9fd423592a52452594bb2f8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/colorcorrectionmgr.h"
+          },
+          "hashes": {
+            "sha-256": "24ce9ab68f556fa84e9ed9d8ced5297eec12e20f75d1e0deb59550929b9a40ff"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/igameevents.h"
+          },
+          "hashes": {
+            "sha-256": "12b7eb6cb3fc2a48cf693ed79db981e0e216598ad5044f1fe85276379866e7cd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/gameeventlistener.h"
+          },
+          "hashes": {
+            "sha-256": "4d7ffead2220ce35339f900bf2a879c85d32d0a9c17395949afa6cc84ac377a0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/econ/ihasowner.h"
+          },
+          "hashes": {
+            "sha-256": "ae3cd759c6e74dee597211cfdf054726d68b87487890cb11fef984c0e344f35c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/weapon_proficiency.h"
+          },
+          "hashes": {
+            "sha-256": "4358a7f048cbc62370f19cf1f7e33aedf32fe80e20f8f0b07d1e5024c6ba9f5c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/weapons_resource.h"
+          },
+          "hashes": {
+            "sha-256": "9b196fd0c478b753d111aa92794cb9335a63854867ec9eb6dba477b2da57767d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/hud.h"
+          },
+          "hashes": {
+            "sha-256": "c9ba5ea86e949bb1d5f50bc8fc7896a8f2bdc3f970dcb1f117c9695e5ffb23c4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/vgui/vgui.h"
+          },
+          "hashes": {
+            "sha-256": "5feb6b8eed0997017c58d6f2bb06fc29abd25f2830c7cf62b335fe531f3486b7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/hudtexturehandle.h"
+          },
+          "hashes": {
+            "sha-256": "f61ab11ca62a20a8abf4ae3b7dae8214d0b4530416075129a50961f340b2a719"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/gamerules.h"
+          },
+          "hashes": {
+            "sha-256": "f5f7f820935b6301d67eaf3d67666321c78dc0776bb9c31f5ac0a80df2832d9b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/gamerules_register.h"
+          },
+          "hashes": {
+            "sha-256": "80e5f423e86686edabe3b326b879c52e0b44e07e6d507fd9c185870f8daac4ad"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/itempents.h"
+          },
+          "hashes": {
+            "sha-256": "c38ab06a329f1764e8f683248b9a61e65887b6400d40639ef72c3d28e03828ed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/ipredictionsystem.h"
+          },
+          "hashes": {
+            "sha-256": "d53367b24bbd444e9ef7a7eacf4d8b0e89bebdeb3bb882f5de7322568385d838"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/shattersurfacetypes.h"
+          },
+          "hashes": {
+            "sha-256": "4eb16c8547e7e04b396bce08aec6963da15b7d06b894677c251144c8c9f4118f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/irecipientfilter.h"
+          },
+          "hashes": {
+            "sha-256": "464669dba7b807ada04ce2ecdf321f5c76f8828f4321186671e68bf255c86e24"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/physics.h"
+          },
+          "hashes": {
+            "sha-256": "1872f810e10d27db2f41cf83330e6219dd72aad405e94ec5f1be6b45705280fb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/physics_shared.h"
+          },
+          "hashes": {
+            "sha-256": "620b90784063df198dc98c4c256fae4dbfc1c10b0eca9f2fcda03997f0eb86e3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/client/c_recipientfilter.h"
+          },
+          "hashes": {
+            "sha-256": "04d82b76bc601d1437a834d081e16d3dcf15424fcd66089e8e1852690cdb988a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/public/worldsize.h"
+          },
+          "hashes": {
+            "sha-256": "b9a7efbae3e5f398bab485873e7b8de4d67374c413600f6944a35b8fd6aa914a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/baseparticleentity.h"
+          },
+          "hashes": {
+            "sha-256": "b3dcf9f3888e0f2c669cb488a59868a56375b61a5421aeaa144b152ff2dda59f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/xblah/content/mapbase/klepto/src/game/shared/entityparticletrail_shared.h"
+          },
+          "hashes": {
+            "sha-256": "2b58243cf66517b725b9a7ac22d194f5cc8acbddacf2ce0701fdc86d4c3ebff5"
+          }
+        }
+      ]
+    }
+  ]
+}

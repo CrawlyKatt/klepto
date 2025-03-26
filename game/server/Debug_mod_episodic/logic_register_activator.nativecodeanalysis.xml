@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\mapbase\</FILEPATH>
+      <FILENAME>logic_register_activator.cpp</FILENAME>
+      <LINE>78</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CLogicRegisterActivator::m_bDisabled' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CLogicRegisterActivator::{ctor}</FUNCTION>
+    <DECORATED>??0CLogicRegisterActivator@@QAE@XZ</DECORATED>
+    <FUNCLINE>78</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CLogicRegisterActivator::m_bDisabled</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

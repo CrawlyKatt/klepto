@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_te_sparks.cpp</FILENAME>
+      <LINE>39</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_TESparks::m_nTrailLength' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_TESparks::{ctor}</FUNCTION>
+    <DECORATED>??0C_TESparks@@QAE@XZ</DECORATED>
+    <FUNCLINE>39</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_TESparks::m_nTrailLength</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_te_sparks.cpp</FILENAME>
+      <LINE>39</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_TESparks::m_nMagnitude' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_TESparks::{ctor}</FUNCTION>
+    <DECORATED>??0C_TESparks@@QAE@XZ</DECORATED>
+    <FUNCLINE>39</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_TESparks::m_nMagnitude</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\</FILEPATH>
+      <FILENAME>SoundParametersInternal.cpp</FILENAME>
+      <LINE>324</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CSoundParametersInternal::reserved' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CSoundParametersInternal::{ctor}</FUNCTION>
+    <DECORATED>??0CSoundParametersInternal@@QAE@XZ</DECORATED>
+    <FUNCLINE>324</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CSoundParametersInternal::reserved</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>gamemovement.cpp</FILENAME>
+      <LINE>518</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>Inconsistent annotation for 'DiffPrint': this instance has no annotations. See e:\xblah\content\mapbase\klepto\src\game\shared\gamemovement.h(58). </DESCRIPTION>
+    <FUNCTION>CGameMovement::DiffPrint</FUNCTION>
+    <DECORATED>?DiffPrint@CGameMovement@@UAAXPBDZZ</DECORATED>
+    <FUNCLINE>518</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>gamemovement.cpp</FILENAME>
+      <LINE>623</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CGameMovement::m_fFrameTime' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CGameMovement::{ctor}</FUNCTION>
+    <DECORATED>??0CGameMovement@@QAE@XZ</DECORATED>
+    <FUNCLINE>623</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CGameMovement::m_fFrameTime</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>gamemovement.cpp</FILENAME>
+      <LINE>623</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CGameMovement::player' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CGameMovement::{ctor}</FUNCTION>
+    <DECORATED>??0CGameMovement@@QAE@XZ</DECORATED>
+    <FUNCLINE>623</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CGameMovement::player</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>gamemovement.cpp</FILENAME>
+      <LINE>623</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CGameMovement::m_iSpeedCropped' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CGameMovement::{ctor}</FUNCTION>
+    <DECORATED>??0CGameMovement@@QAE@XZ</DECORATED>
+    <FUNCLINE>623</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CGameMovement::m_iSpeedCropped</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>gamemovement.cpp</FILENAME>
+      <LINE>623</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CGameMovement::m_CachedGetPointContents' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CGameMovement::{ctor}</FUNCTION>
+    <DECORATED>??0CGameMovement@@QAE@XZ</DECORATED>
+    <FUNCLINE>623</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CGameMovement::m_CachedGetPointContents</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

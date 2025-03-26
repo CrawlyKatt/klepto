@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>CRagdollMagnet.h</FILENAME>
+      <LINE>56</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CRagdollMagnet::m_bDisabled' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CRagdollMagnet::{ctor}</FUNCTION>
+    <DECORATED>??0CRagdollMagnet@@QAE@XZ</DECORATED>
+    <FUNCLINE>56</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CRagdollMagnet::m_bDisabled</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>CRagdollMagnet.h</FILENAME>
+      <LINE>56</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CRagdollMagnet::m_radius' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CRagdollMagnet::{ctor}</FUNCTION>
+    <DECORATED>??0CRagdollMagnet@@QAE@XZ</DECORATED>
+    <FUNCLINE>56</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CRagdollMagnet::m_radius</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>CRagdollMagnet.h</FILENAME>
+      <LINE>56</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CRagdollMagnet::m_force' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CRagdollMagnet::{ctor}</FUNCTION>
+    <DECORATED>??0CRagdollMagnet@@QAE@XZ</DECORATED>
+    <FUNCLINE>56</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CRagdollMagnet::m_force</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>CRagdollMagnet.h</FILENAME>
+      <LINE>56</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CRagdollMagnet::m_BoneTarget' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CRagdollMagnet::{ctor}</FUNCTION>
+    <DECORATED>??0CRagdollMagnet@@QAE@XZ</DECORATED>
+    <FUNCLINE>56</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CRagdollMagnet::m_BoneTarget</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

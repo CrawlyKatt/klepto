@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>beam_shared.cpp</FILENAME>
+      <LINE>340</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CBeam::m_flDamage' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CBeam::{ctor}</FUNCTION>
+    <DECORATED>??0CBeam@@QAE@XZ</DECORATED>
+    <FUNCLINE>340</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CBeam::m_flDamage</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>beam_shared.cpp</FILENAME>
+      <LINE>340</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CBeam::m_flFireTime' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CBeam::{ctor}</FUNCTION>
+    <DECORATED>??0CBeam@@QAE@XZ</DECORATED>
+    <FUNCLINE>340</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CBeam::m_flFireTime</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

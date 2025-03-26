@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>fx_explosion.h</FILENAME>
+      <LINE>82</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CExplosionOverlay::m_flLifetime' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CExplosionOverlay::{ctor}</FUNCTION>
+    <DECORATED>??0CExplosionOverlay@@QAE@XZ</DECORATED>
+    <FUNCLINE>82</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CExplosionOverlay::m_flLifetime</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

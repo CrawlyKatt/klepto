@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>vgui_loadingdiscpanel.cpp</FILENAME>
+      <LINE>114</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CLoadingDisc::m_hParent' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CLoadingDisc::{ctor}</FUNCTION>
+    <DECORATED>??0CLoadingDisc@@QAE@XZ</DECORATED>
+    <FUNCLINE>114</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CLoadingDisc::m_hParent</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\vgui_controls\</FILEPATH>
+      <FILENAME>Panel.h</FILENAME>
+      <LINE>91</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'vgui::OverridableColorEntry::m_pszScriptName' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>vgui::OverridableColorEntry::{ctor}</FUNCTION>
+    <DECORATED>??0OverridableColorEntry@vgui@@QAE@XZ</DECORATED>
+    <FUNCLINE>91</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>vgui::OverridableColorEntry::m_pszScriptName</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\vgui_controls\</FILEPATH>
+      <FILENAME>Panel.h</FILENAME>
+      <LINE>91</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'vgui::OverridableColorEntry::m_pColor' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>vgui::OverridableColorEntry::{ctor}</FUNCTION>
+    <DECORATED>??0OverridableColorEntry@vgui@@QAE@XZ</DECORATED>
+    <FUNCLINE>91</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>vgui::OverridableColorEntry::m_pColor</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\vgui_controls\</FILEPATH>
+      <FILENAME>Panel.h</FILENAME>
+      <LINE>91</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'vgui::OverridableColorEntry::m_bOverridden' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>vgui::OverridableColorEntry::{ctor}</FUNCTION>
+    <DECORATED>??0OverridableColorEntry@vgui@@QAE@XZ</DECORATED>
+    <FUNCLINE>91</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>vgui::OverridableColorEntry::m_bOverridden</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

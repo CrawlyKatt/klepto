@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>globalstate.cpp</FILENAME>
+      <LINE>27</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'globalentity_t::state' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>globalentity_t::{ctor}</FUNCTION>
+    <DECORATED>??0globalentity_t@@QAE@XZ</DECORATED>
+    <FUNCLINE>27</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>globalentity_t::state</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>globalstate.cpp</FILENAME>
+      <LINE>27</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'globalentity_t::counter' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>globalentity_t::{ctor}</FUNCTION>
+    <DECORATED>??0globalentity_t@@QAE@XZ</DECORATED>
+    <FUNCLINE>27</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>globalentity_t::counter</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

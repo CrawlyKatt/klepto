@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_playerresource.cpp</FILENAME>
+      <LINE>51</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_PlayerResource::m_szName' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_PlayerResource::{ctor}</FUNCTION>
+    <DECORATED>??0C_PlayerResource@@QAE@XZ</DECORATED>
+    <FUNCLINE>51</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_PlayerResource::m_szName</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

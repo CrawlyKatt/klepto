@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\mapbase\</FILEPATH>
+      <FILENAME>logic_substring.cpp</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CLogicSubstring::m_nLength' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CLogicSubstring::{ctor}</FUNCTION>
+    <DECORATED>??0CLogicSubstring@@QAE@XZ</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CLogicSubstring::m_nLength</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\mapbase\</FILEPATH>
+      <FILENAME>logic_substring.cpp</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CLogicSubstring::m_nStartPos' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CLogicSubstring::{ctor}</FUNCTION>
+    <DECORATED>??0CLogicSubstring@@QAE@XZ</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CLogicSubstring::m_nStartPos</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\mapbase\</FILEPATH>
+      <FILENAME>logic_substring.cpp</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CLogicSubstring::m_bEnabled' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CLogicSubstring::{ctor}</FUNCTION>
+    <DECORATED>??0CLogicSubstring@@QAE@XZ</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CLogicSubstring::m_bEnabled</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

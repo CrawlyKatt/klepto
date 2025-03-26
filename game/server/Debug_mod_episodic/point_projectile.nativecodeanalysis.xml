@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\mapbase\</FILEPATH>
+      <FILENAME>point_projectile.cpp</FILENAME>
+      <LINE>52</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CPointProjectile::m_iszOwner' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CPointProjectile::{ctor}</FUNCTION>
+    <DECORATED>??0CPointProjectile@@QAE@XZ</DECORATED>
+    <FUNCLINE>52</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CPointProjectile::m_iszOwner</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\mapbase\</FILEPATH>
+      <FILENAME>point_projectile.cpp</FILENAME>
+      <LINE>52</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CPointProjectile::m_flDamage' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CPointProjectile::{ctor}</FUNCTION>
+    <DECORATED>??0CPointProjectile@@QAE@XZ</DECORATED>
+    <FUNCLINE>52</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CPointProjectile::m_flDamage</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\mapbase\</FILEPATH>
+      <FILENAME>point_projectile.cpp</FILENAME>
+      <LINE>52</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CPointProjectile::m_flSpeed' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CPointProjectile::{ctor}</FUNCTION>
+    <DECORATED>??0CPointProjectile@@QAE@XZ</DECORATED>
+    <FUNCLINE>52</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CPointProjectile::m_flSpeed</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\mapbase\</FILEPATH>
+      <FILENAME>point_projectile.cpp</FILENAME>
+      <LINE>52</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CPointProjectile::m_bFireProjectilesFromOwner' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CPointProjectile::{ctor}</FUNCTION>
+    <DECORATED>??0CPointProjectile@@QAE@XZ</DECORATED>
+    <FUNCLINE>52</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CPointProjectile::m_bFireProjectilesFromOwner</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

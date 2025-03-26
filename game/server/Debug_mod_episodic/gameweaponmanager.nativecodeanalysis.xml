@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>gameweaponmanager.cpp</FILENAME>
+      <LINE>30</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CGameWeaponManager::m_iMaxPieces' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CGameWeaponManager::{ctor}</FUNCTION>
+    <DECORATED>??0CGameWeaponManager@@QAE@XZ</DECORATED>
+    <FUNCLINE>30</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CGameWeaponManager::m_iMaxPieces</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>gameweaponmanager.cpp</FILENAME>
+      <LINE>30</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CGameWeaponManager::m_iszWeaponName' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CGameWeaponManager::{ctor}</FUNCTION>
+    <DECORATED>??0CGameWeaponManager@@QAE@XZ</DECORATED>
+    <FUNCLINE>30</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CGameWeaponManager::m_iszWeaponName</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

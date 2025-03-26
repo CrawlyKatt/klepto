@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\mapbase\</FILEPATH>
+      <FILENAME>point_radiation_source.cpp</FILENAME>
+      <LINE>34</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CPointRadiationSource::m_bTestPVS' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CPointRadiationSource::{ctor}</FUNCTION>
+    <DECORATED>??0CPointRadiationSource@@QAE@XZ</DECORATED>
+    <FUNCLINE>34</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CPointRadiationSource::m_bTestPVS</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\mapbase\</FILEPATH>
+      <FILENAME>point_radiation_source.cpp</FILENAME>
+      <LINE>34</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CPointRadiationSource::m_flRadius' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CPointRadiationSource::{ctor}</FUNCTION>
+    <DECORATED>??0CPointRadiationSource@@QAE@XZ</DECORATED>
+    <FUNCLINE>34</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CPointRadiationSource::m_flRadius</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\mapbase\</FILEPATH>
+      <FILENAME>point_radiation_source.cpp</FILENAME>
+      <LINE>34</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CPointRadiationSource::m_bDisabled' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CPointRadiationSource::{ctor}</FUNCTION>
+    <DECORATED>??0CPointRadiationSource@@QAE@XZ</DECORATED>
+    <FUNCLINE>34</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CPointRadiationSource::m_bDisabled</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

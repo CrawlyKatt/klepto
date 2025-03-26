@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>basepresence.h</FILENAME>
+      <LINE>53</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CBasePresence::m_bArbitrated' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CBasePresence::{ctor}</FUNCTION>
+    <DECORATED>??0CBasePresence@@QAE@XZ</DECORATED>
+    <FUNCLINE>53</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CBasePresence::m_bArbitrated</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>basepresence.h</FILENAME>
+      <LINE>53</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CBasePresence::m_bReportingStats' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CBasePresence::{ctor}</FUNCTION>
+    <DECORATED>??0CBasePresence@@QAE@XZ</DECORATED>
+    <FUNCLINE>53</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CBasePresence::m_bReportingStats</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>basepresence.h</FILENAME>
+      <LINE>53</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CBasePresence::m_hSession' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CBasePresence::{ctor}</FUNCTION>
+    <DECORATED>??0CBasePresence@@QAE@XZ</DECORATED>
+    <FUNCLINE>53</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CBasePresence::m_hSession</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

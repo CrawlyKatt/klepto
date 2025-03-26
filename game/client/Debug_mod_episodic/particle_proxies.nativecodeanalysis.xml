@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>particle_proxies.cpp</FILENAME>
+      <LINE>24</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ParticleSphereProxy::m_pLightPosition' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ParticleSphereProxy::{ctor}</FUNCTION>
+    <DECORATED>??0ParticleSphereProxy@@QAE@XZ</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ParticleSphereProxy::m_pLightPosition</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>particle_proxies.cpp</FILENAME>
+      <LINE>24</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ParticleSphereProxy::m_pLightColor' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ParticleSphereProxy::{ctor}</FUNCTION>
+    <DECORATED>??0ParticleSphereProxy@@QAE@XZ</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ParticleSphereProxy::m_pLightColor</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>particlemgr.h</FILENAME>
+      <LINE>599</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CParticleLightInfo::m_flIntensity' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CParticleLightInfo::{ctor}</FUNCTION>
+    <DECORATED>??0CParticleLightInfo@@QAE@XZ</DECORATED>
+    <FUNCLINE>599</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CParticleLightInfo::m_flIntensity</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

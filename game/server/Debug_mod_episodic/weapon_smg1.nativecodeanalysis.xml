@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>ai_namespaces.h</FILENAME>
+      <LINE>141</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CAI_ClassScheduleIdSpace::m_pszClassName' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CAI_ClassScheduleIdSpace::{ctor}</FUNCTION>
+    <DECORATED>??0CAI_ClassScheduleIdSpace@@QAE@_N@Z</DECORATED>
+    <FUNCLINE>141</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CAI_ClassScheduleIdSpace::m_pszClassName</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>activitylist.h</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CActivityRemap::activity' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CActivityRemap::{ctor}</FUNCTION>
+    <DECORATED>??0CActivityRemap@@QAE@XZ</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CActivityRemap::activity</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>activitylist.h</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CActivityRemap::mappedActivity' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CActivityRemap::{ctor}</FUNCTION>
+    <DECORATED>??0CActivityRemap@@QAE@XZ</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CActivityRemap::mappedActivity</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\hl2\</FILEPATH>
+      <FILENAME>weapon_smg1.cpp</FILENAME>
+      <LINE>185</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CWeaponSMG1::m_flNextGrenadeCheck' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CWeaponSMG1::{ctor}</FUNCTION>
+    <DECORATED>??0CWeaponSMG1@@QAE@XZ</DECORATED>
+    <FUNCLINE>185</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CWeaponSMG1::m_flNextGrenadeCheck</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

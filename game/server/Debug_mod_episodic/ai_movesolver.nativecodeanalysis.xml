@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\tier1\</FILEPATH>
+      <FILENAME>utlvector.h</FILENAME>
+      <LINE>920</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'pArray'. </DESCRIPTION>
+    <FUNCTION>CUtlVector&lt;AI_MoveSuggestion_t,CUtlMemory&lt;AI_MoveSuggestion_t,int&gt; &gt;::CopyArray</FUNCTION>
+    <DECORATED>?CopyArray@?$CUtlVector@UAI_MoveSuggestion_t@@V?$CUtlMemory@UAI_MoveSuggestion_t@@H@@@@QAEXPBUAI_MoveSuggestion_t@@H@Z</DECORATED>
+    <FUNCLINE>912</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\tier1\</FILEPATH>
+        <FILENAME>utlvector.h</FILENAME>
+        <LINE>915</LINE>
+        <COLUMN>1</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'pArray' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\tier1\</FILEPATH>
+        <FILENAME>utlvector.h</FILENAME>
+        <LINE>917</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\tier1\</FILEPATH>
+        <FILENAME>utlvector.h</FILENAME>
+        <LINE>918</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\tier1\</FILEPATH>
+        <FILENAME>utlvector.h</FILENAME>
+        <LINE>918</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;size')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\tier1\</FILEPATH>
+        <FILENAME>utlvector.h</FILENAME>
+        <LINE>920</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'pArray' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

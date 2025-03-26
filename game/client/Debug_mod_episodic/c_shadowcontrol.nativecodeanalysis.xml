@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_shadowcontrol.cpp</FILENAME>
+      <LINE>38</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_ShadowControl::m_shadowColor' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_ShadowControl::{ctor}</FUNCTION>
+    <DECORATED>??0C_ShadowControl@@QAE@XZ</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_ShadowControl::m_shadowColor</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_shadowcontrol.cpp</FILENAME>
+      <LINE>38</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_ShadowControl::m_flShadowMaxDist' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_ShadowControl::{ctor}</FUNCTION>
+    <DECORATED>??0C_ShadowControl@@QAE@XZ</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_ShadowControl::m_flShadowMaxDist</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_shadowcontrol.cpp</FILENAME>
+      <LINE>38</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_ShadowControl::m_bDisableShadows' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_ShadowControl::{ctor}</FUNCTION>
+    <DECORATED>??0C_ShadowControl@@QAE@XZ</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_ShadowControl::m_bDisableShadows</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_shadowcontrol.cpp</FILENAME>
+      <LINE>38</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_ShadowControl::m_bEnableLocalLightShadows' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_ShadowControl::{ctor}</FUNCTION>
+    <DECORATED>??0C_ShadowControl@@QAE@XZ</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_ShadowControl::m_bEnableLocalLightShadows</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\hl2\</FILEPATH>
+      <FILENAME>c_env_alyxtemp.cpp</FILENAME>
+      <LINE>40</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_AlyxEmpEffect::m_nState' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_AlyxEmpEffect::{ctor}</FUNCTION>
+    <DECORATED>??0C_AlyxEmpEffect@@QAE@XZ</DECORATED>
+    <FUNCLINE>40</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_AlyxEmpEffect::m_nState</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\hl2\</FILEPATH>
+      <FILENAME>c_env_alyxtemp.cpp</FILENAME>
+      <LINE>40</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_AlyxEmpEffect::m_flDuration' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_AlyxEmpEffect::{ctor}</FUNCTION>
+    <DECORATED>??0C_AlyxEmpEffect@@QAE@XZ</DECORATED>
+    <FUNCLINE>40</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_AlyxEmpEffect::m_flDuration</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\hl2\</FILEPATH>
+      <FILENAME>c_env_alyxtemp.cpp</FILENAME>
+      <LINE>40</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_AlyxEmpEffect::m_flStartTime' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_AlyxEmpEffect::{ctor}</FUNCTION>
+    <DECORATED>??0C_AlyxEmpEffect@@QAE@XZ</DECORATED>
+    <FUNCLINE>40</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_AlyxEmpEffect::m_flStartTime</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

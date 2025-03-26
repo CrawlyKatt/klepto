@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_props.cpp</FILENAME>
+      <LINE>32</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_DynamicProp::m_bUseHitboxesForRenderBox' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_DynamicProp::{ctor}</FUNCTION>
+    <DECORATED>??0C_DynamicProp@@QAE@XZ</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_DynamicProp::m_bUseHitboxesForRenderBox</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

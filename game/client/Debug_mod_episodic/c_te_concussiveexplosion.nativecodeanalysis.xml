@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\hl2\</FILEPATH>
+      <FILENAME>c_te_concussiveexplosion.cpp</FILENAME>
+      <LINE>34</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_TEConcussiveExplosion::m_nRadius' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_TEConcussiveExplosion::{ctor}</FUNCTION>
+    <DECORATED>??0C_TEConcussiveExplosion@@QAE@XZ</DECORATED>
+    <FUNCLINE>34</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_TEConcussiveExplosion::m_nRadius</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\hl2\</FILEPATH>
+      <FILENAME>c_te_concussiveexplosion.cpp</FILENAME>
+      <LINE>34</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_TEConcussiveExplosion::m_nMagnitude' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_TEConcussiveExplosion::{ctor}</FUNCTION>
+    <DECORATED>??0C_TEConcussiveExplosion@@QAE@XZ</DECORATED>
+    <FUNCLINE>34</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_TEConcussiveExplosion::m_nMagnitude</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\hl2\</FILEPATH>
+      <FILENAME>c_te_concussiveexplosion.cpp</FILENAME>
+      <LINE>34</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_TEConcussiveExplosion::m_flScale' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_TEConcussiveExplosion::{ctor}</FUNCTION>
+    <DECORATED>??0C_TEConcussiveExplosion@@QAE@XZ</DECORATED>
+    <FUNCLINE>34</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_TEConcussiveExplosion::m_flScale</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

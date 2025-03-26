@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\mapbase\</FILEPATH>
+      <FILENAME>closecaption_entity.cpp</FILENAME>
+      <LINE>24</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CEnvCloseCaption::m_iFlags' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CEnvCloseCaption::{ctor}</FUNCTION>
+    <DECORATED>??0CEnvCloseCaption@@QAE@XZ</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CEnvCloseCaption::m_iFlags</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\mapbase\</FILEPATH>
+      <FILENAME>closecaption_entity.cpp</FILENAME>
+      <LINE>24</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CEnvCloseCaption::m_flDuration' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CEnvCloseCaption::{ctor}</FUNCTION>
+    <DECORATED>??0CEnvCloseCaption@@QAE@XZ</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CEnvCloseCaption::m_flDuration</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

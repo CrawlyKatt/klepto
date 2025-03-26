@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\mapbase\</FILEPATH>
+      <FILENAME>logic_eventlistener.cpp</FILENAME>
+      <LINE>72</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CLogicEventListener::m_bDisabled' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CLogicEventListener::{ctor}</FUNCTION>
+    <DECORATED>??0CLogicEventListener@@QAE@XZ</DECORATED>
+    <FUNCLINE>72</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CLogicEventListener::m_bDisabled</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\mapbase\</FILEPATH>
+      <FILENAME>logic_eventlistener.cpp</FILENAME>
+      <LINE>72</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CLogicEventListener::m_iszEventName' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CLogicEventListener::{ctor}</FUNCTION>
+    <DECORATED>??0CLogicEventListener@@QAE@XZ</DECORATED>
+    <FUNCLINE>72</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CLogicEventListener::m_iszEventName</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\mapbase\</FILEPATH>
+      <FILENAME>logic_eventlistener.cpp</FILENAME>
+      <LINE>206</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CPointEvent::m_KeyNames' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CPointEvent::{ctor}</FUNCTION>
+    <DECORATED>??0CPointEvent@@QAE@XZ</DECORATED>
+    <FUNCLINE>206</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CPointEvent::m_KeyNames</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

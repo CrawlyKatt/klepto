@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_func_tracktrain.cpp</FILENAME>
+      <LINE>35</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_FuncTrackTrain::m_nLongAxis' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_FuncTrackTrain::{ctor}</FUNCTION>
+    <DECORATED>??0C_FuncTrackTrain@@QAE@XZ</DECORATED>
+    <FUNCLINE>35</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_FuncTrackTrain::m_nLongAxis</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_func_tracktrain.cpp</FILENAME>
+      <LINE>35</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_FuncTrackTrain::m_flRadius' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_FuncTrackTrain::{ctor}</FUNCTION>
+    <DECORATED>??0C_FuncTrackTrain@@QAE@XZ</DECORATED>
+    <FUNCLINE>35</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_FuncTrackTrain::m_flRadius</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_func_tracktrain.cpp</FILENAME>
+      <LINE>35</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_FuncTrackTrain::m_flLineLength' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_FuncTrackTrain::{ctor}</FUNCTION>
+    <DECORATED>??0C_FuncTrackTrain@@QAE@XZ</DECORATED>
+    <FUNCLINE>35</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_FuncTrackTrain::m_flLineLength</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

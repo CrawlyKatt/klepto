@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_te_glassshatter.cpp</FILENAME>
+      <LINE>93</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_TEShatterSurface::m_pMaterialHandle' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_TEShatterSurface::{ctor}</FUNCTION>
+    <DECORATED>??0C_TEShatterSurface@@QAE@XZ</DECORATED>
+    <FUNCLINE>93</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_TEShatterSurface::m_pMaterialHandle</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

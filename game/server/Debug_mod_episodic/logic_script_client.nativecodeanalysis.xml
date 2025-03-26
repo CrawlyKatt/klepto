@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\mapbase\</FILEPATH>
+      <FILENAME>logic_script_client.cpp</FILENAME>
+      <LINE>236</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CLogicScriptClient::m_bRunOnServer' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CLogicScriptClient::{ctor}</FUNCTION>
+    <DECORATED>??0CLogicScriptClient@@QAE@XZ</DECORATED>
+    <FUNCLINE>236</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CLogicScriptClient::m_bRunOnServer</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

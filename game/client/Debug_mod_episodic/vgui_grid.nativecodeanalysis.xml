@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>vgui_grid.cpp</FILENAME>
+      <LINE>32</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'vgui::CGrid::CGridEntry::m_iUnderlineOffset' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>vgui::CGrid::CGridEntry::{ctor}</FUNCTION>
+    <DECORATED>??0CGridEntry@CGrid@vgui@@QAE@XZ</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>vgui::CGrid::CGridEntry::m_iUnderlineOffset</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>vgui_grid.cpp</FILENAME>
+      <LINE>32</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'vgui::CGrid::CGridEntry::m_UnderlineColor' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>vgui::CGrid::CGridEntry::{ctor}</FUNCTION>
+    <DECORATED>??0CGridEntry@CGrid@vgui@@QAE@XZ</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>vgui::CGrid::CGridEntry::m_UnderlineColor</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\vgui_controls\</FILEPATH>
+      <FILENAME>Panel.h</FILENAME>
+      <LINE>91</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'vgui::OverridableColorEntry::m_pszScriptName' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>vgui::OverridableColorEntry::{ctor}</FUNCTION>
+    <DECORATED>??0OverridableColorEntry@vgui@@QAE@XZ</DECORATED>
+    <FUNCLINE>91</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>vgui::OverridableColorEntry::m_pszScriptName</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\vgui_controls\</FILEPATH>
+      <FILENAME>Panel.h</FILENAME>
+      <LINE>91</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'vgui::OverridableColorEntry::m_pColor' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>vgui::OverridableColorEntry::{ctor}</FUNCTION>
+    <DECORATED>??0OverridableColorEntry@vgui@@QAE@XZ</DECORATED>
+    <FUNCLINE>91</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>vgui::OverridableColorEntry::m_pColor</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\vgui_controls\</FILEPATH>
+      <FILENAME>Panel.h</FILENAME>
+      <LINE>91</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'vgui::OverridableColorEntry::m_bOverridden' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>vgui::OverridableColorEntry::{ctor}</FUNCTION>
+    <DECORATED>??0OverridableColorEntry@vgui@@QAE@XZ</DECORATED>
+    <FUNCLINE>91</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>vgui::OverridableColorEntry::m_bOverridden</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

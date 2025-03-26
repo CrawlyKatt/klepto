@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\episodic\</FILEPATH>
+      <FILENAME>flesh_internal_material_proxy.cpp</FILENAME>
+      <LINE>65</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_FleshEffectTarget::m_flRadius' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_FleshEffectTarget::{ctor}</FUNCTION>
+    <DECORATED>??0C_FleshEffectTarget@@QAE@XZ</DECORATED>
+    <FUNCLINE>65</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_FleshEffectTarget::m_flRadius</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\episodic\</FILEPATH>
+      <FILENAME>flesh_internal_material_proxy.cpp</FILENAME>
+      <LINE>65</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_FleshEffectTarget::m_flStartRadius' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_FleshEffectTarget::{ctor}</FUNCTION>
+    <DECORATED>??0C_FleshEffectTarget@@QAE@XZ</DECORATED>
+    <FUNCLINE>65</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_FleshEffectTarget::m_flStartRadius</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\episodic\</FILEPATH>
+      <FILENAME>flesh_internal_material_proxy.cpp</FILENAME>
+      <LINE>65</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_FleshEffectTarget::m_flScaleStartTime' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_FleshEffectTarget::{ctor}</FUNCTION>
+    <DECORATED>??0C_FleshEffectTarget@@QAE@XZ</DECORATED>
+    <FUNCLINE>65</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_FleshEffectTarget::m_flScaleStartTime</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\episodic\</FILEPATH>
+      <FILENAME>flesh_internal_material_proxy.cpp</FILENAME>
+      <LINE>65</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_FleshEffectTarget::m_flScaleTime' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_FleshEffectTarget::{ctor}</FUNCTION>
+    <DECORATED>??0C_FleshEffectTarget@@QAE@XZ</DECORATED>
+    <FUNCLINE>65</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_FleshEffectTarget::m_flScaleTime</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\hl2mp\</FILEPATH>
+      <FILENAME>grenade_tripmine.cpp</FILENAME>
+      <LINE>58</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CTripmineGrenade::m_flBeamLength' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CTripmineGrenade::{ctor}</FUNCTION>
+    <DECORATED>??0CTripmineGrenade@@QAE@XZ</DECORATED>
+    <FUNCLINE>58</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CTripmineGrenade::m_flBeamLength</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\hl2mp\</FILEPATH>
+      <FILENAME>grenade_tripmine.cpp</FILENAME>
+      <LINE>58</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CTripmineGrenade::m_pBeam' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CTripmineGrenade::{ctor}</FUNCTION>
+    <DECORATED>??0CTripmineGrenade@@QAE@XZ</DECORATED>
+    <FUNCLINE>58</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CTripmineGrenade::m_pBeam</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\hl2mp\</FILEPATH>
+      <FILENAME>grenade_tripmine.cpp</FILENAME>
+      <LINE>58</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CTripmineGrenade::m_flPowerUp' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CTripmineGrenade::{ctor}</FUNCTION>
+    <DECORATED>??0CTripmineGrenade@@QAE@XZ</DECORATED>
+    <FUNCLINE>58</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CTripmineGrenade::m_flPowerUp</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

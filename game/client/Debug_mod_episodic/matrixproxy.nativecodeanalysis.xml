@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>matrixproxy.cpp</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CTextureTransformProxy::m_pCenterVar' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CTextureTransformProxy::{ctor}</FUNCTION>
+    <DECORATED>??0CTextureTransformProxy@@QAE@XZ</DECORATED>
+    <FUNCLINE>37</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CTextureTransformProxy::m_pCenterVar</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>matrixproxy.cpp</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CTextureTransformProxy::m_pScaleVar' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CTextureTransformProxy::{ctor}</FUNCTION>
+    <DECORATED>??0CTextureTransformProxy@@QAE@XZ</DECORATED>
+    <FUNCLINE>37</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CTextureTransformProxy::m_pScaleVar</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>matrixproxy.cpp</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CTextureTransformProxy::m_pRotateVar' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CTextureTransformProxy::{ctor}</FUNCTION>
+    <DECORATED>??0CTextureTransformProxy@@QAE@XZ</DECORATED>
+    <FUNCLINE>37</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CTextureTransformProxy::m_pRotateVar</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>matrixproxy.cpp</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CTextureTransformProxy::m_pTranslateVar' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CTextureTransformProxy::{ctor}</FUNCTION>
+    <DECORATED>??0CTextureTransformProxy@@QAE@XZ</DECORATED>
+    <FUNCLINE>37</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CTextureTransformProxy::m_pTranslateVar</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>matrixproxy.cpp</FILENAME>
+      <LINE>137</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CMatrixRotateProxy::m_Angle' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CMatrixRotateProxy::{ctor}</FUNCTION>
+    <DECORATED>??0CMatrixRotateProxy@@QAE@XZ</DECORATED>
+    <FUNCLINE>137</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CMatrixRotateProxy::m_Angle</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>matrixproxy.cpp</FILENAME>
+      <LINE>137</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CMatrixRotateProxy::m_pAxisVar' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CMatrixRotateProxy::{ctor}</FUNCTION>
+    <DECORATED>??0CMatrixRotateProxy@@QAE@XZ</DECORATED>
+    <FUNCLINE>137</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CMatrixRotateProxy::m_pAxisVar</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

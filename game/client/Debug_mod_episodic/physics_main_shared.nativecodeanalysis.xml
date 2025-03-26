@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>physics_main_shared.cpp</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'watcher_t::pWatcherCallback' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>watcher_t::{ctor}</FUNCTION>
+    <DECORATED>??0watcher_t@@QAE@XZ</DECORATED>
+    <FUNCLINE>37</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>watcher_t::pWatcherCallback</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>physics_main_shared.cpp</FILENAME>
+      <LINE>1954</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ThinkSync::thinktick' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ThinkSync::{ctor}</FUNCTION>
+    <DECORATED>??0ThinkSync@@QAE@XZ</DECORATED>
+    <FUNCLINE>1954</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ThinkSync::thinktick</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>movetype_push.h</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'physicspushlist_t::localMoveTime' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>physicspushlist_t::{ctor}</FUNCTION>
+    <DECORATED>??0physicspushlist_t@@QAE@XZ</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>physicspushlist_t::localMoveTime</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>movetype_push.h</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'physicspushlist_t::pushedCount' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>physicspushlist_t::{ctor}</FUNCTION>
+    <DECORATED>??0physicspushlist_t@@QAE@XZ</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>physicspushlist_t::pushedCount</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>shareddefs.h</FILENAME>
+      <LINE>819</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'StepSimulationStep::nTickCount' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>StepSimulationStep::{ctor}</FUNCTION>
+    <DECORATED>??0StepSimulationStep@@QAE@XZ</DECORATED>
+    <FUNCLINE>819</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>StepSimulationStep::nTickCount</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>shareddefs.h</FILENAME>
+      <LINE>846</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'StepSimulationData::m_bOriginActive' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>StepSimulationData::{ctor}</FUNCTION>
+    <DECORATED>??0StepSimulationData@@QAE@XZ</DECORATED>
+    <FUNCLINE>846</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>StepSimulationData::m_bOriginActive</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>shareddefs.h</FILENAME>
+      <LINE>846</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'StepSimulationData::m_bAnglesActive' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>StepSimulationData::{ctor}</FUNCTION>
+    <DECORATED>??0StepSimulationData@@QAE@XZ</DECORATED>
+    <FUNCLINE>846</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>StepSimulationData::m_bAnglesActive</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>shareddefs.h</FILENAME>
+      <LINE>846</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'StepSimulationData::m_nLastProcessTickCount' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>StepSimulationData::{ctor}</FUNCTION>
+    <DECORATED>??0StepSimulationData@@QAE@XZ</DECORATED>
+    <FUNCLINE>846</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>StepSimulationData::m_nLastProcessTickCount</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>groundlink.h</FILENAME>
+      <LINE>21</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'groundlink_t::nextLink' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>groundlink_t::{ctor}</FUNCTION>
+    <DECORATED>??0groundlink_t@@QAE@XZ</DECORATED>
+    <FUNCLINE>21</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>groundlink_t::nextLink</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>groundlink.h</FILENAME>
+      <LINE>21</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'groundlink_t::prevLink' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>groundlink_t::{ctor}</FUNCTION>
+    <DECORATED>??0groundlink_t@@QAE@XZ</DECORATED>
+    <FUNCLINE>21</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>groundlink_t::prevLink</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\tier0\</FILEPATH>
+      <FILENAME>tslist.h</FILENAME>
+      <LINE>673</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CTSQueue&lt;CFunctor *,0&gt;::Node_t::pNext' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CTSQueue&lt;CFunctor *,0&gt;::Node_t::{ctor}</FUNCTION>
+    <DECORATED>??0Node_t@?$CTSQueue@PAVCFunctor@@$0A@@@QAE@ABQAVCFunctor@@@Z</DECORATED>
+    <FUNCLINE>673</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CTSQueue&lt;CFunctor *,0&gt;::Node_t::pNext</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\tier0\</FILEPATH>
+      <FILENAME>tslist.h</FILENAME>
+      <LINE>672</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CTSQueue&lt;CFunctor *,0&gt;::Node_t::elem' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CTSQueue&lt;CFunctor *,0&gt;::Node_t::{ctor}</FUNCTION>
+    <DECORATED>??0Node_t@?$CTSQueue@PAVCFunctor@@$0A@@@QAE@XZ</DECORATED>
+    <FUNCLINE>672</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CTSQueue&lt;CFunctor *,0&gt;::Node_t::elem</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\tier0\</FILEPATH>
+      <FILENAME>tslist.h</FILENAME>
+      <LINE>672</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CTSQueue&lt;CFunctor *,0&gt;::Node_t::pNext' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CTSQueue&lt;CFunctor *,0&gt;::Node_t::{ctor}</FUNCTION>
+    <DECORATED>??0Node_t@?$CTSQueue@PAVCFunctor@@$0A@@@QAE@XZ</DECORATED>
+    <FUNCLINE>672</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CTSQueue&lt;CFunctor *,0&gt;::Node_t::pNext</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

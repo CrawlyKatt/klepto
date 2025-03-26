@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>env_entity_maker.cpp</FILENAME>
+      <LINE>77</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CEnvEntityMaker::m_iszTemplate' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CEnvEntityMaker::{ctor}</FUNCTION>
+    <DECORATED>??0CEnvEntityMaker@@QAE@XZ</DECORATED>
+    <FUNCLINE>77</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CEnvEntityMaker::m_iszTemplate</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>env_entity_maker.cpp</FILENAME>
+      <LINE>77</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CEnvEntityMaker::m_flPostSpawnSpeed' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CEnvEntityMaker::{ctor}</FUNCTION>
+    <DECORATED>??0CEnvEntityMaker@@QAE@XZ</DECORATED>
+    <FUNCLINE>77</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CEnvEntityMaker::m_flPostSpawnSpeed</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>env_entity_maker.cpp</FILENAME>
+      <LINE>77</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CEnvEntityMaker::m_flPostSpawnDirectionVariance' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CEnvEntityMaker::{ctor}</FUNCTION>
+    <DECORATED>??0CEnvEntityMaker@@QAE@XZ</DECORATED>
+    <FUNCLINE>77</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CEnvEntityMaker::m_flPostSpawnDirectionVariance</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>env_entity_maker.cpp</FILENAME>
+      <LINE>77</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CEnvEntityMaker::m_bPostSpawnUseAngles' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CEnvEntityMaker::{ctor}</FUNCTION>
+    <DECORATED>??0CEnvEntityMaker@@QAE@XZ</DECORATED>
+    <FUNCLINE>77</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CEnvEntityMaker::m_bPostSpawnUseAngles</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

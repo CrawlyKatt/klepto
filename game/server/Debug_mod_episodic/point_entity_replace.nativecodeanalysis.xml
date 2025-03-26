@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\mapbase\</FILEPATH>
+      <FILENAME>point_entity_replace.cpp</FILENAME>
+      <LINE>87</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CPointEntityReplace::m_iTakeStuff' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CPointEntityReplace::{ctor}</FUNCTION>
+    <DECORATED>??0CPointEntityReplace@@QAE@XZ</DECORATED>
+    <FUNCLINE>87</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CPointEntityReplace::m_iTakeStuff</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\mapbase\</FILEPATH>
+      <FILENAME>point_entity_replace.cpp</FILENAME>
+      <LINE>87</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CPointEntityReplace::m_bRemoveOriginalEntity' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CPointEntityReplace::{ctor}</FUNCTION>
+    <DECORATED>??0CPointEntityReplace@@QAE@XZ</DECORATED>
+    <FUNCLINE>87</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CPointEntityReplace::m_bRemoveOriginalEntity</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\mapbase\</FILEPATH>
+      <FILENAME>point_entity_replace.cpp</FILENAME>
+      <LINE>87</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CPointEntityReplace::m_iReplacementType' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CPointEntityReplace::{ctor}</FUNCTION>
+    <DECORATED>??0CPointEntityReplace@@QAE@XZ</DECORATED>
+    <FUNCLINE>87</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CPointEntityReplace::m_iReplacementType</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\mapbase\</FILEPATH>
+      <FILENAME>point_entity_replace.cpp</FILENAME>
+      <LINE>87</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CPointEntityReplace::m_iReplacementLocation' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CPointEntityReplace::{ctor}</FUNCTION>
+    <DECORATED>??0CPointEntityReplace@@QAE@XZ</DECORATED>
+    <FUNCLINE>87</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CPointEntityReplace::m_iReplacementLocation</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\mapbase\</FILEPATH>
+      <FILENAME>point_entity_replace.cpp</FILENAME>
+      <LINE>87</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CPointEntityReplace::m_bFireOriginalEntityAsCaller' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CPointEntityReplace::{ctor}</FUNCTION>
+    <DECORATED>??0CPointEntityReplace@@QAE@XZ</DECORATED>
+    <FUNCLINE>87</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CPointEntityReplace::m_bFireOriginalEntityAsCaller</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\mapbase\</FILEPATH>
+      <FILENAME>point_entity_replace.cpp</FILENAME>
+      <LINE>87</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CPointEntityReplace::m_iszReplacementEntity' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CPointEntityReplace::{ctor}</FUNCTION>
+    <DECORATED>??0CPointEntityReplace@@QAE@XZ</DECORATED>
+    <FUNCLINE>87</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CPointEntityReplace::m_iszReplacementEntity</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

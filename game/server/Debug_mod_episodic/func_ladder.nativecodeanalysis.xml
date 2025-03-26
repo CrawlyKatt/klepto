@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>func_ladder.cpp</FILENAME>
+      <LINE>27</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CFuncLadder::m_surfacePropName' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CFuncLadder::{ctor}</FUNCTION>
+    <DECORATED>??0CFuncLadder@@QAE@XZ</DECORATED>
+    <FUNCLINE>27</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CFuncLadder::m_surfacePropName</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

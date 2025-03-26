@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\hl2\</FILEPATH>
+      <FILENAME>c_ar2_explosion.cpp</FILENAME>
+      <LINE>162</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_AR2Explosion::m_szMaterialName' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_AR2Explosion::{ctor}</FUNCTION>
+    <DECORATED>??0C_AR2Explosion@@QAE@XZ</DECORATED>
+    <FUNCLINE>162</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_AR2Explosion::m_szMaterialName</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\hl2\</FILEPATH>
+      <FILENAME>c_ar2_explosion.cpp</FILENAME>
+      <LINE>186</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '27920' bytes of stack.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>C_AR2Explosion::Start</FUNCTION>
+    <DECORATED>?Start@C_AR2Explosion@@UAEXPAVCParticleMgr@@PAVIPrototypeArgAccess@@@Z</DECORATED>
+    <FUNCLINE>186</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\</FILEPATH>
+      <FILENAME>surfinfo.h</FILENAME>
+      <LINE>29</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'SurfInfo::m_nVerts' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>SurfInfo::{ctor}</FUNCTION>
+    <DECORATED>??0SurfInfo@@QAE@XZ</DECORATED>
+    <FUNCLINE>29</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>SurfInfo::m_nVerts</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\</FILEPATH>
+      <FILENAME>surfinfo.h</FILENAME>
+      <LINE>29</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'SurfInfo::m_pEngineData' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>SurfInfo::{ctor}</FUNCTION>
+    <DECORATED>??0SurfInfo@@QAE@XZ</DECORATED>
+    <FUNCLINE>29</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>SurfInfo::m_pEngineData</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

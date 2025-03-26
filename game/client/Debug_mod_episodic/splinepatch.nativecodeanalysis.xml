@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>splinepatch.cpp</FILENAME>
+      <LINE>34</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CSplinePatch::m_is' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CSplinePatch::{ctor}</FUNCTION>
+    <DECORATED>??0CSplinePatch@@QAE@XZ</DECORATED>
+    <FUNCLINE>34</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CSplinePatch::m_is</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>splinepatch.cpp</FILENAME>
+      <LINE>34</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CSplinePatch::m_it' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CSplinePatch::{ctor}</FUNCTION>
+    <DECORATED>??0CSplinePatch@@QAE@XZ</DECORATED>
+    <FUNCLINE>34</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CSplinePatch::m_it</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>splinepatch.cpp</FILENAME>
+      <LINE>34</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CSplinePatch::m_fs' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CSplinePatch::{ctor}</FUNCTION>
+    <DECORATED>??0CSplinePatch@@QAE@XZ</DECORATED>
+    <FUNCLINE>34</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CSplinePatch::m_fs</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>splinepatch.cpp</FILENAME>
+      <LINE>34</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CSplinePatch::m_ft' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CSplinePatch::{ctor}</FUNCTION>
+    <DECORATED>??0CSplinePatch@@QAE@XZ</DECORATED>
+    <FUNCLINE>34</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CSplinePatch::m_ft</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>splinepatch.cpp</FILENAME>
+      <LINE>34</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CSplinePatch::m_pChannel' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CSplinePatch::{ctor}</FUNCTION>
+    <DECORATED>??0CSplinePatch@@QAE@XZ</DECORATED>
+    <FUNCLINE>34</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CSplinePatch::m_pChannel</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>splinepatch.cpp</FILENAME>
+      <LINE>34</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CSplinePatch::m_SampleIndices' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CSplinePatch::{ctor}</FUNCTION>
+    <DECORATED>??0CSplinePatch@@QAE@XZ</DECORATED>
+    <FUNCLINE>34</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CSplinePatch::m_SampleIndices</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

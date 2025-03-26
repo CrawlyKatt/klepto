@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\hl2\</FILEPATH>
+      <FILENAME>c_basehelicopter.h</FILENAME>
+      <LINE>28</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_BaseHelicopter::m_flStartupTime' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_BaseHelicopter::{ctor}</FUNCTION>
+    <DECORATED>??0C_BaseHelicopter@@AAE@ABV0@@Z</DECORATED>
+    <FUNCLINE>28</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_BaseHelicopter::m_flStartupTime</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\hl2\</FILEPATH>
+      <FILENAME>c_basehelicopter.cpp</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_BaseHelicopter::m_flStartupTime' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_BaseHelicopter::{ctor}</FUNCTION>
+    <DECORATED>??0C_BaseHelicopter@@QAE@XZ</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_BaseHelicopter::m_flStartupTime</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\hl2\</FILEPATH>
+      <FILENAME>c_basehelicopter.cpp</FILENAME>
+      <LINE>39</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CHeliBladeMaterialProxy::m_bFadeOut' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CHeliBladeMaterialProxy::{ctor}</FUNCTION>
+    <DECORATED>??0CHeliBladeMaterialProxy@@QAE@XZ</DECORATED>
+    <FUNCLINE>39</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CHeliBladeMaterialProxy::m_bFadeOut</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

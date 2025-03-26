@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>pointhurt.cpp</FILENAME>
+      <LINE>46</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CPointHurt::m_strTarget' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CPointHurt::{ctor}</FUNCTION>
+    <DECORATED>??0CPointHurt@@QAE@XZ</DECORATED>
+    <FUNCLINE>46</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CPointHurt::m_strTarget</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>pointhurt.cpp</FILENAME>
+      <LINE>46</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CPointHurt::m_flDelay' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CPointHurt::{ctor}</FUNCTION>
+    <DECORATED>??0CPointHurt@@QAE@XZ</DECORATED>
+    <FUNCLINE>46</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CPointHurt::m_flDelay</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>pointhurt.cpp</FILENAME>
+      <LINE>46</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CPointHurt::m_flRadius' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CPointHurt::{ctor}</FUNCTION>
+    <DECORATED>??0CPointHurt@@QAE@XZ</DECORATED>
+    <FUNCLINE>46</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CPointHurt::m_flRadius</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>pointhurt.cpp</FILENAME>
+      <LINE>46</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CPointHurt::m_bitsDamageType' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CPointHurt::{ctor}</FUNCTION>
+    <DECORATED>??0CPointHurt@@QAE@XZ</DECORATED>
+    <FUNCLINE>46</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CPointHurt::m_bitsDamageType</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>pointhurt.cpp</FILENAME>
+      <LINE>46</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CPointHurt::m_nDamage' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CPointHurt::{ctor}</FUNCTION>
+    <DECORATED>??0CPointHurt@@QAE@XZ</DECORATED>
+    <FUNCLINE>46</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CPointHurt::m_nDamage</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

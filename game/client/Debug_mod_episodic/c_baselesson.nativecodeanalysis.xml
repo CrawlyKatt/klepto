@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_gameinstructor.h</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'LessonGroupConVarToggle_t::szLessonGroupName' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>LessonGroupConVarToggle_t::{ctor}</FUNCTION>
+    <DECORATED>??0LessonGroupConVarToggle_t@@QAE@PBD@Z</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>LessonGroupConVarToggle_t::szLessonGroupName</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_gameinstructor.h</FILENAME>
+      <LINE>32</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_GameInstructor::m_iCurrentPriority' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_GameInstructor::{ctor}</FUNCTION>
+    <DECORATED>??0C_GameInstructor@@QAE@XZ</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_GameInstructor::m_iCurrentPriority</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_gameinstructor.h</FILENAME>
+      <LINE>32</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_GameInstructor::m_bNoDraw' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_GameInstructor::{ctor}</FUNCTION>
+    <DECORATED>??0C_GameInstructor@@QAE@XZ</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_GameInstructor::m_bNoDraw</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_gameinstructor.h</FILENAME>
+      <LINE>32</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_GameInstructor::m_bHiddenDueToOtherElements' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_GameInstructor::{ctor}</FUNCTION>
+    <DECORATED>??0C_GameInstructor@@QAE@XZ</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_GameInstructor::m_bHiddenDueToOtherElements</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_gameinstructor.h</FILENAME>
+      <LINE>32</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_GameInstructor::m_pScriptKeys' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_GameInstructor::{ctor}</FUNCTION>
+    <DECORATED>??0C_GameInstructor@@QAE@XZ</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_GameInstructor::m_pScriptKeys</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_gameinstructor.h</FILENAME>
+      <LINE>32</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_GameInstructor::m_szPreviousStartSound' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_GameInstructor::{ctor}</FUNCTION>
+    <DECORATED>??0C_GameInstructor@@QAE@XZ</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_GameInstructor::m_szPreviousStartSound</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_gameinstructor.h</FILENAME>
+      <LINE>32</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_GameInstructor::m_bSpectatedPlayerChanged' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_GameInstructor::{ctor}</FUNCTION>
+    <DECORATED>??0C_GameInstructor@@QAE@XZ</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_GameInstructor::m_bSpectatedPlayerChanged</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_gameinstructor.h</FILENAME>
+      <LINE>32</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_GameInstructor::m_fNextStartSoundTime' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_GameInstructor::{ctor}</FUNCTION>
+    <DECORATED>??0C_GameInstructor@@QAE@XZ</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_GameInstructor::m_fNextStartSoundTime</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\tier1\</FILEPATH>
+      <FILENAME>utlmap.h</FILENAME>
+      <LINE>178</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CUtlMap&lt;char const *,enum LessonVariable,int&gt;::Node_t::elem' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CUtlMap&lt;char const *,enum LessonVariable,int&gt;::Node_t::{ctor}</FUNCTION>
+    <DECORATED>??0Node_t@?$CUtlMap@PBDW4LessonVariable@@H@@QAE@XZ</DECORATED>
+    <FUNCLINE>178</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CUtlMap&lt;char const *,enum LessonVariable,int&gt;::Node_t::elem</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\tier1\</FILEPATH>
+      <FILENAME>utlmap.h</FILENAME>
+      <LINE>178</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CUtlMap&lt;char const *,enum LessonVariable,int&gt;::Node_t::key' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CUtlMap&lt;char const *,enum LessonVariable,int&gt;::Node_t::{ctor}</FUNCTION>
+    <DECORATED>??0Node_t@?$CUtlMap@PBDW4LessonVariable@@H@@QAE@XZ</DECORATED>
+    <FUNCLINE>178</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CUtlMap&lt;char const *,enum LessonVariable,int&gt;::Node_t::key</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\tier1\</FILEPATH>
+      <FILENAME>utlmap.h</FILENAME>
+      <LINE>178</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CUtlMap&lt;char const *,enum _fieldtypes,int&gt;::Node_t::elem' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CUtlMap&lt;char const *,enum _fieldtypes,int&gt;::Node_t::{ctor}</FUNCTION>
+    <DECORATED>??0Node_t@?$CUtlMap@PBDW4_fieldtypes@@H@@QAE@XZ</DECORATED>
+    <FUNCLINE>178</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CUtlMap&lt;char const *,enum _fieldtypes,int&gt;::Node_t::elem</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\tier1\</FILEPATH>
+      <FILENAME>utlmap.h</FILENAME>
+      <LINE>178</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CUtlMap&lt;char const *,enum _fieldtypes,int&gt;::Node_t::key' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CUtlMap&lt;char const *,enum _fieldtypes,int&gt;::Node_t::{ctor}</FUNCTION>
+    <DECORATED>??0Node_t@?$CUtlMap@PBDW4_fieldtypes@@H@@QAE@XZ</DECORATED>
+    <FUNCLINE>178</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CUtlMap&lt;char const *,enum _fieldtypes,int&gt;::Node_t::key</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\tier1\</FILEPATH>
+      <FILENAME>utlmap.h</FILENAME>
+      <LINE>178</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CUtlMap&lt;char const *,int,int&gt;::Node_t::elem' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CUtlMap&lt;char const *,int,int&gt;::Node_t::{ctor}</FUNCTION>
+    <DECORATED>??0Node_t@?$CUtlMap@PBDHH@@QAE@XZ</DECORATED>
+    <FUNCLINE>178</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CUtlMap&lt;char const *,int,int&gt;::Node_t::elem</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\tier1\</FILEPATH>
+      <FILENAME>utlmap.h</FILENAME>
+      <LINE>178</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CUtlMap&lt;char const *,int,int&gt;::Node_t::key' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CUtlMap&lt;char const *,int,int&gt;::Node_t::{ctor}</FUNCTION>
+    <DECORATED>??0Node_t@?$CUtlMap@PBDHH@@QAE@XZ</DECORATED>
+    <FUNCLINE>178</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CUtlMap&lt;char const *,int,int&gt;::Node_t::key</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

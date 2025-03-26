@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_particle_fire.cpp</FILENAME>
+      <LINE>157</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_ParticleFire::m_nEmitters' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_ParticleFire::{ctor}</FUNCTION>
+    <DECORATED>??0C_ParticleFire@@QAE@XZ</DECORATED>
+    <FUNCLINE>157</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_ParticleFire::m_nEmitters</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_particle_fire.cpp</FILENAME>
+      <LINE>89</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_ParticleFire::FireEmitter::m_DirectionsTested' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_ParticleFire::FireEmitter::{ctor}</FUNCTION>
+    <DECORATED>??0FireEmitter@C_ParticleFire@@QAE@XZ</DECORATED>
+    <FUNCLINE>89</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_ParticleFire::FireEmitter::m_DirectionsTested</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_particle_fire.cpp</FILENAME>
+      <LINE>89</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_ParticleFire::FireEmitter::m_Lifetime' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_ParticleFire::FireEmitter::{ctor}</FUNCTION>
+    <DECORATED>??0FireEmitter@C_ParticleFire@@QAE@XZ</DECORATED>
+    <FUNCLINE>89</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_ParticleFire::FireEmitter::m_Lifetime</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>igamesystem.cpp</FILENAME>
+      <LINE>53</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CAutoGameSystem::m_pNext' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CAutoGameSystem::{ctor}</FUNCTION>
+    <DECORATED>??0CAutoGameSystem@@QAE@PBD@Z</DECORATED>
+    <FUNCLINE>53</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CAutoGameSystem::m_pNext</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>igamesystem.cpp</FILENAME>
+      <LINE>75</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CAutoGameSystemPerFrame::m_pNext' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CAutoGameSystemPerFrame::{ctor}</FUNCTION>
+    <DECORATED>??0CAutoGameSystemPerFrame@@QAE@PBD@Z</DECORATED>
+    <FUNCLINE>75</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CAutoGameSystemPerFrame::m_pNext</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

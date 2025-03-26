@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>point_camera.cpp</FILENAME>
+      <LINE>98</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CPointCamera::m_TargetFOV' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CPointCamera::{ctor}</FUNCTION>
+    <DECORATED>??0CPointCamera@@QAE@XZ</DECORATED>
+    <FUNCLINE>98</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CPointCamera::m_TargetFOV</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>point_camera.cpp</FILENAME>
+      <LINE>98</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CPointCamera::m_DegreesPerSecond' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CPointCamera::{ctor}</FUNCTION>
+    <DECORATED>??0CPointCamera@@QAE@XZ</DECORATED>
+    <FUNCLINE>98</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CPointCamera::m_DegreesPerSecond</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>point_camera.cpp</FILENAME>
+      <LINE>98</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CPointCamera::m_pNext' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CPointCamera::{ctor}</FUNCTION>
+    <DECORATED>??0CPointCamera@@QAE@XZ</DECORATED>
+    <FUNCLINE>98</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CPointCamera::m_pNext</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>point_camera.cpp</FILENAME>
+      <LINE>370</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CPointCameraOrtho::m_TargetOrthoDPS' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CPointCameraOrtho::{ctor}</FUNCTION>
+    <DECORATED>??0CPointCameraOrtho@@QAE@XZ</DECORATED>
+    <FUNCLINE>370</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CPointCameraOrtho::m_TargetOrthoDPS</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>point_camera.cpp</FILENAME>
+      <LINE>370</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CPointCameraOrtho::m_TargetOrtho' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CPointCameraOrtho::{ctor}</FUNCTION>
+    <DECORATED>??0CPointCameraOrtho@@QAE@XZ</DECORATED>
+    <FUNCLINE>370</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CPointCameraOrtho::m_TargetOrtho</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

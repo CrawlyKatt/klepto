@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\hl2mp\</FILEPATH>
+      <FILENAME>weapon_slam.cpp</FILENAME>
+      <LINE>1068</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CWeapon_SLAM::m_flWallSwitchTime' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CWeapon_SLAM::{ctor}</FUNCTION>
+    <DECORATED>??0CWeapon_SLAM@@QAE@XZ</DECORATED>
+    <FUNCLINE>1068</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CWeapon_SLAM::m_flWallSwitchTime</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\hl2\</FILEPATH>
+      <FILENAME>basehlcombatweapon_shared.h</FILENAME>
+      <LINE>64</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CBaseHLCombatWeapon::m_flHolsterTime' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CBaseHLCombatWeapon::{ctor}</FUNCTION>
+    <DECORATED>??0CBaseHLCombatWeapon@@QAE@XZ</DECORATED>
+    <FUNCLINE>64</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CBaseHLCombatWeapon::m_flHolsterTime</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\hl2\</FILEPATH>
+      <FILENAME>basehlcombatweapon_shared.h</FILENAME>
+      <LINE>64</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CBaseHLCombatWeapon::m_bLowered' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CBaseHLCombatWeapon::{ctor}</FUNCTION>
+    <DECORATED>??0CBaseHLCombatWeapon@@QAE@XZ</DECORATED>
+    <FUNCLINE>64</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CBaseHLCombatWeapon::m_bLowered</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\hl2\</FILEPATH>
+      <FILENAME>basehlcombatweapon_shared.h</FILENAME>
+      <LINE>64</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CBaseHLCombatWeapon::m_flRaiseTime' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CBaseHLCombatWeapon::{ctor}</FUNCTION>
+    <DECORATED>??0CBaseHLCombatWeapon@@QAE@XZ</DECORATED>
+    <FUNCLINE>64</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CBaseHLCombatWeapon::m_flRaiseTime</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\hl2\</FILEPATH>
+      <FILENAME>basehlcombatweapon_shared.h</FILENAME>
+      <LINE>64</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CBaseHLCombatWeapon::m_iSecondaryAttacks' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CBaseHLCombatWeapon::{ctor}</FUNCTION>
+    <DECORATED>??0CBaseHLCombatWeapon@@QAE@XZ</DECORATED>
+    <FUNCLINE>64</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CBaseHLCombatWeapon::m_iSecondaryAttacks</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\hl2\</FILEPATH>
+      <FILENAME>basehlcombatweapon_shared.h</FILENAME>
+      <LINE>64</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CBaseHLCombatWeapon::m_iPrimaryAttacks' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CBaseHLCombatWeapon::{ctor}</FUNCTION>
+    <DECORATED>??0CBaseHLCombatWeapon@@QAE@XZ</DECORATED>
+    <FUNCLINE>64</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CBaseHLCombatWeapon::m_iPrimaryAttacks</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

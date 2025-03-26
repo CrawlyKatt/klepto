@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>ai_namespaces.h</FILENAME>
+      <LINE>141</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CAI_ClassScheduleIdSpace::m_pszClassName' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CAI_ClassScheduleIdSpace::{ctor}</FUNCTION>
+    <DECORATED>??0CAI_ClassScheduleIdSpace@@QAE@_N@Z</DECORATED>
+    <FUNCLINE>141</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CAI_ClassScheduleIdSpace::m_pszClassName</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>activitylist.h</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CActivityRemap::activity' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CActivityRemap::{ctor}</FUNCTION>
+    <DECORATED>??0CActivityRemap@@QAE@XZ</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CActivityRemap::activity</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>activitylist.h</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CActivityRemap::mappedActivity' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CActivityRemap::{ctor}</FUNCTION>
+    <DECORATED>??0CActivityRemap@@QAE@XZ</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CActivityRemap::mappedActivity</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\tier1\</FILEPATH>
+      <FILENAME>utlmemory.h</FILENAME>
+      <LINE>210</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CUtlMemoryFixed&lt;CHandle&lt;CAI_BaseNPC&gt;,16,0&gt;::m_Memory' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CUtlMemoryFixed&lt;CHandle&lt;CAI_BaseNPC&gt;,16,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$CUtlMemoryFixed@V?$CHandle@VCAI_BaseNPC@@@@$0BA@$0A@@@QAE@HH@Z</DECORATED>
+    <FUNCLINE>210</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CUtlMemoryFixed&lt;CHandle&lt;CAI_BaseNPC&gt;,16,0&gt;::m_Memory</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\</FILEPATH>
+      <FILENAME>bitvec.h</FILENAME>
+      <LINE>376</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CFixedBitVecBase&lt;32&gt;::m_Ints' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CFixedBitVecBase&lt;32&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$CFixedBitVecBase@$0CA@@@IAE@XZ</DECORATED>
+    <FUNCLINE>376</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CFixedBitVecBase&lt;32&gt;::m_Ints</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

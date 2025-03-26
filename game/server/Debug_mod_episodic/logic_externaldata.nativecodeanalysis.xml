@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\mapbase\</FILEPATH>
+      <FILENAME>logic_externaldata.cpp</FILENAME>
+      <LINE>64</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CLogicExternalData::m_iszFile' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CLogicExternalData::{ctor}</FUNCTION>
+    <DECORATED>??0CLogicExternalData@@QAE@XZ</DECORATED>
+    <FUNCLINE>64</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CLogicExternalData::m_iszFile</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\mapbase\</FILEPATH>
+      <FILENAME>logic_externaldata.cpp</FILENAME>
+      <LINE>64</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CLogicExternalData::m_pRoot' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CLogicExternalData::{ctor}</FUNCTION>
+    <DECORATED>??0CLogicExternalData@@QAE@XZ</DECORATED>
+    <FUNCLINE>64</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CLogicExternalData::m_pRoot</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\mapbase\</FILEPATH>
+      <FILENAME>logic_externaldata.cpp</FILENAME>
+      <LINE>64</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CLogicExternalData::m_pBlock' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CLogicExternalData::{ctor}</FUNCTION>
+    <DECORATED>??0CLogicExternalData@@QAE@XZ</DECORATED>
+    <FUNCLINE>64</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CLogicExternalData::m_pBlock</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\mapbase\</FILEPATH>
+      <FILENAME>logic_externaldata.cpp</FILENAME>
+      <LINE>64</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CLogicExternalData::m_bSaveEachChange' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CLogicExternalData::{ctor}</FUNCTION>
+    <DECORATED>??0CLogicExternalData@@QAE@XZ</DECORATED>
+    <FUNCLINE>64</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CLogicExternalData::m_bSaveEachChange</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\mapbase\</FILEPATH>
+      <FILENAME>logic_externaldata.cpp</FILENAME>
+      <LINE>64</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CLogicExternalData::m_bReloadBeforeEachAction' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CLogicExternalData::{ctor}</FUNCTION>
+    <DECORATED>??0CLogicExternalData@@QAE@XZ</DECORATED>
+    <FUNCLINE>64</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CLogicExternalData::m_bReloadBeforeEachAction</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\mapbase\</FILEPATH>
+      <FILENAME>logic_externaldata.cpp</FILENAME>
+      <LINE>64</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CLogicExternalData::m_iszMapname' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CLogicExternalData::{ctor}</FUNCTION>
+    <DECORATED>??0CLogicExternalData@@QAE@XZ</DECORATED>
+    <FUNCLINE>64</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CLogicExternalData::m_iszMapname</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

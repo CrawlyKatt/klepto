@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>ai_namespaces.h</FILENAME>
+      <LINE>141</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CAI_ClassScheduleIdSpace::m_pszClassName' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CAI_ClassScheduleIdSpace::{ctor}</FUNCTION>
+    <DECORATED>??0CAI_ClassScheduleIdSpace@@QAE@_N@Z</DECORATED>
+    <FUNCLINE>141</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CAI_ClassScheduleIdSpace::m_pszClassName</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>activitylist.h</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CActivityRemap::mappedActivity' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CActivityRemap::{ctor}</FUNCTION>
+    <DECORATED>??0CActivityRemap@@QAE@XZ</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CActivityRemap::mappedActivity</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>activitylist.h</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CActivityRemap::activity' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CActivityRemap::{ctor}</FUNCTION>
+    <DECORATED>??0CActivityRemap@@QAE@XZ</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CActivityRemap::activity</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\episodic\</FILEPATH>
+      <FILENAME>npc_puppet.cpp</FILENAME>
+      <LINE>33</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CNPC_Puppet::m_sAnimAttachmentName' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CNPC_Puppet::{ctor}</FUNCTION>
+    <DECORATED>??0CNPC_Puppet@@QAE@XZ</DECORATED>
+    <FUNCLINE>33</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CNPC_Puppet::m_sAnimAttachmentName</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\episodic\</FILEPATH>
+      <FILENAME>npc_puppet.cpp</FILENAME>
+      <LINE>33</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CNPC_Puppet::m_sAnimTargetname' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CNPC_Puppet::{ctor}</FUNCTION>
+    <DECORATED>??0CNPC_Puppet@@QAE@XZ</DECORATED>
+    <FUNCLINE>33</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CNPC_Puppet::m_sAnimTargetname</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\mapbase\</FILEPATH>
+      <FILENAME>vscript_singletons.h</FILENAME>
+      <LINE>60</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CNetMsgScriptHelper::m_MsgData' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CNetMsgScriptHelper::{ctor}</FUNCTION>
+    <DECORATED>??0CNetMsgScriptHelper@@QAE@XZ</DECORATED>
+    <FUNCLINE>60</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CNetMsgScriptHelper::m_MsgData</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>vscript_server.cpp</FILENAME>
+      <LINE>860</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CVScriptGameSystem::m_bAllowEntityCreationInScripts' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CVScriptGameSystem::{ctor}</FUNCTION>
+    <DECORATED>??0CVScriptGameSystem@@QAE@XZ</DECORATED>
+    <FUNCLINE>860</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CVScriptGameSystem::m_bAllowEntityCreationInScripts</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

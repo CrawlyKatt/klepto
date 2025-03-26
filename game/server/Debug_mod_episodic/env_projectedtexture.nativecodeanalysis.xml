@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>env_projectedtexture.cpp</FILENAME>
+      <LINE>132</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CEnvProjectedTexture::m_bProjectedTextureVersion' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CEnvProjectedTexture::{ctor}</FUNCTION>
+    <DECORATED>??0CEnvProjectedTexture@@QAE@XZ</DECORATED>
+    <FUNCLINE>132</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CEnvProjectedTexture::m_bProjectedTextureVersion</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

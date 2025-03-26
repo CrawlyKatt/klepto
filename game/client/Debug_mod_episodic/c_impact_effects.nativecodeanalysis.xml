@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>effect_dispatch_data.h</FILENAME>
+      <LINE>76</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CEffectData::m_iEffectName' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CEffectData::{ctor}</FUNCTION>
+    <DECORATED>??0CEffectData@@QAE@XZ</DECORATED>
+    <FUNCLINE>76</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CEffectData::m_iEffectName</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>particle_parse.h</FILENAME>
+      <LINE>50</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'te_tf_particle_effects_control_point_t::m_eParticleAttachment' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>te_tf_particle_effects_control_point_t::{ctor}</FUNCTION>
+    <DECORATED>??0te_tf_particle_effects_control_point_t@@QAE@XZ</DECORATED>
+    <FUNCLINE>50</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>te_tf_particle_effects_control_point_t::m_eParticleAttachment</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_impact_effects.cpp</FILENAME>
+      <LINE>1409</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_TEGaussExplosion::m_nType' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_TEGaussExplosion::{ctor}</FUNCTION>
+    <DECORATED>??0C_TEGaussExplosion@@QAE@XZ</DECORATED>
+    <FUNCLINE>1409</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_TEGaussExplosion::m_nType</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

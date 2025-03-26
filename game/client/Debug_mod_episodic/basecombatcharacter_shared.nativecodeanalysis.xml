@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>basecombatcharacter_shared.cpp</FILENAME>
+      <LINE>264</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CCombatCharVisCache::VisCacheEntry_t::m_bEntity1CanSeeEntity2' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CCombatCharVisCache::VisCacheEntry_t::{ctor}</FUNCTION>
+    <DECORATED>??0VisCacheEntry_t@CCombatCharVisCache@@QAE@XZ</DECORATED>
+    <FUNCLINE>264</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CCombatCharVisCache::VisCacheEntry_t::m_bEntity1CanSeeEntity2</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>basecombatcharacter_shared.cpp</FILENAME>
+      <LINE>264</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CCombatCharVisCache::VisCacheEntry_t::m_bEntity2CanSeeEntity1' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CCombatCharVisCache::VisCacheEntry_t::{ctor}</FUNCTION>
+    <DECORATED>??0VisCacheEntry_t@CCombatCharVisCache@@QAE@XZ</DECORATED>
+    <FUNCLINE>264</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CCombatCharVisCache::VisCacheEntry_t::m_bEntity2CanSeeEntity1</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>basecombatcharacter_shared.cpp</FILENAME>
+      <LINE>264</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CCombatCharVisCache::VisCacheEntry_t::m_flTime' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CCombatCharVisCache::VisCacheEntry_t::{ctor}</FUNCTION>
+    <DECORATED>??0VisCacheEntry_t@CCombatCharVisCache@@QAE@XZ</DECORATED>
+    <FUNCLINE>264</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CCombatCharVisCache::VisCacheEntry_t::m_flTime</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>basecombatcharacter_shared.cpp</FILENAME>
+      <LINE>281</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CCombatCharVisCache::m_nHitCount' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CCombatCharVisCache::{ctor}</FUNCTION>
+    <DECORATED>??0CCombatCharVisCache@@QAE@XZ</DECORATED>
+    <FUNCLINE>281</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CCombatCharVisCache::m_nHitCount</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>basecombatcharacter_shared.cpp</FILENAME>
+      <LINE>281</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CCombatCharVisCache::m_nTestCount' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CCombatCharVisCache::{ctor}</FUNCTION>
+    <DECORATED>??0CCombatCharVisCache@@QAE@XZ</DECORATED>
+    <FUNCLINE>281</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CCombatCharVisCache::m_nTestCount</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

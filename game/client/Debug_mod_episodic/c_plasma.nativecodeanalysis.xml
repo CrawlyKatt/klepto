@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_plasma.cpp</FILENAME>
+      <LINE>174</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_Plasma::m_entFlameScales' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_Plasma::{ctor}</FUNCTION>
+    <DECORATED>??0C_Plasma@@QAE@XZ</DECORATED>
+    <FUNCLINE>174</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_Plasma::m_entFlameScales</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

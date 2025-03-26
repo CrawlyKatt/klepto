@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>sceneentity_shared.cpp</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>Inconsistent annotation for 'Scene_Printf': this instance has no annotations. See e:\xblah\content\mapbase\klepto\src\game\shared\sceneentity_shared.h(120). </DESCRIPTION>
+    <FUNCTION>Scene_Printf</FUNCTION>
+    <DECORATED>?Scene_Printf@@YAXPBDZZ</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>sceneentity_shared.cpp</FILENAME>
+      <LINE>107</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>Inconsistent annotation for 'Error': this instance has no annotations. See e:\xblah\content\mapbase\klepto\src\game\shared\sceneentity_shared.h(111). </DESCRIPTION>
+    <FUNCTION>CSceneTokenProcessor::Error</FUNCTION>
+    <DECORATED>?Error@CSceneTokenProcessor@@UAAXPBDZZ</DECORATED>
+    <FUNCLINE>107</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>sceneentity_shared.h</FILENAME>
+      <LINE>116</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CSceneTokenProcessor::m_pBuffer' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CSceneTokenProcessor::{ctor}</FUNCTION>
+    <DECORATED>??0CSceneTokenProcessor@@QAE@XZ</DECORATED>
+    <FUNCLINE>116</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CSceneTokenProcessor::m_pBuffer</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>sceneentity_shared.h</FILENAME>
+      <LINE>116</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CSceneTokenProcessor::m_szToken' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CSceneTokenProcessor::{ctor}</FUNCTION>
+    <DECORATED>??0CSceneTokenProcessor@@QAE@XZ</DECORATED>
+    <FUNCLINE>116</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CSceneTokenProcessor::m_szToken</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

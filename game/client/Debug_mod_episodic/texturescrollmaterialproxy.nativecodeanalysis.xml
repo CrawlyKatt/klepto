@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>texturescrollmaterialproxy.cpp</FILENAME>
+      <LINE>42</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CTextureScrollMaterialProxy::m_TextureScrollRate' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CTextureScrollMaterialProxy::{ctor}</FUNCTION>
+    <DECORATED>??0CTextureScrollMaterialProxy@@QAE@XZ</DECORATED>
+    <FUNCLINE>42</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CTextureScrollMaterialProxy::m_TextureScrollRate</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>texturescrollmaterialproxy.cpp</FILENAME>
+      <LINE>42</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CTextureScrollMaterialProxy::m_TextureScrollAngle' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CTextureScrollMaterialProxy::{ctor}</FUNCTION>
+    <DECORATED>??0CTextureScrollMaterialProxy@@QAE@XZ</DECORATED>
+    <FUNCLINE>42</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CTextureScrollMaterialProxy::m_TextureScrollAngle</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>texturescrollmaterialproxy.cpp</FILENAME>
+      <LINE>42</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CTextureScrollMaterialProxy::m_TextureScale' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CTextureScrollMaterialProxy::{ctor}</FUNCTION>
+    <DECORATED>??0CTextureScrollMaterialProxy@@QAE@XZ</DECORATED>
+    <FUNCLINE>42</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CTextureScrollMaterialProxy::m_TextureScale</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>hltvdirector.cpp</FILENAME>
+      <LINE>93</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CHLTVDirector::m_nBroadcastTick' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CHLTVDirector::{ctor}</FUNCTION>
+    <DECORATED>??0CHLTVDirector@@QAE@XZ</DECORATED>
+    <FUNCLINE>93</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CHLTVDirector::m_nBroadcastTick</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>hltvdirector.cpp</FILENAME>
+      <LINE>93</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CHLTVDirector::m_pActivePlayers' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CHLTVDirector::{ctor}</FUNCTION>
+    <DECORATED>??0CHLTVDirector@@QAE@XZ</DECORATED>
+    <FUNCLINE>93</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CHLTVDirector::m_pActivePlayers</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>hltvdirector.cpp</FILENAME>
+      <LINE>93</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CHLTVDirector::m_nNumActivePlayers' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CHLTVDirector::{ctor}</FUNCTION>
+    <DECORATED>??0CHLTVDirector@@QAE@XZ</DECORATED>
+    <FUNCLINE>93</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CHLTVDirector::m_nNumActivePlayers</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>hltvdirector.cpp</FILENAME>
+      <LINE>93</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CHLTVDirector::m_pFixedCameras' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CHLTVDirector::{ctor}</FUNCTION>
+    <DECORATED>??0CHLTVDirector@@QAE@XZ</DECORATED>
+    <FUNCLINE>93</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CHLTVDirector::m_pFixedCameras</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>hltvdirector.cpp</FILENAME>
+      <LINE>93</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CHLTVDirector::m_nNextShotTick' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CHLTVDirector::{ctor}</FUNCTION>
+    <DECORATED>??0CHLTVDirector@@QAE@XZ</DECORATED>
+    <FUNCLINE>93</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CHLTVDirector::m_nNextShotTick</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

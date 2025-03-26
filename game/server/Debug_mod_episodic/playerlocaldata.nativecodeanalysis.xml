@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>playerlocaldata.cpp</FILENAME>
+      <LINE>211</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CPlayerLocalData::m_nOldButtons' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CPlayerLocalData::{ctor}</FUNCTION>
+    <DECORATED>??0CPlayerLocalData@@QAE@XZ</DECORATED>
+    <FUNCLINE>211</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CPlayerLocalData::m_nOldButtons</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>playerlocaldata.cpp</FILENAME>
+      <LINE>211</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CPlayerLocalData::m_nStepside' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CPlayerLocalData::{ctor}</FUNCTION>
+    <DECORATED>??0CPlayerLocalData@@QAE@XZ</DECORATED>
+    <FUNCLINE>211</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CPlayerLocalData::m_nStepside</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

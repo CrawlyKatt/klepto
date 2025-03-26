@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_movie_explosion.cpp</FILENAME>
+      <LINE>87</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_MovieExplosion::m_EmitterAlpha' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_MovieExplosion::{ctor}</FUNCTION>
+    <DECORATED>??0C_MovieExplosion@@QAE@XZ</DECORATED>
+    <FUNCLINE>87</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_MovieExplosion::m_EmitterAlpha</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_movie_explosion.cpp</FILENAME>
+      <LINE>87</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_MovieExplosion::m_iFireballMaterial' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_MovieExplosion::{ctor}</FUNCTION>
+    <DECORATED>??0C_MovieExplosion@@QAE@XZ</DECORATED>
+    <FUNCLINE>87</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_MovieExplosion::m_iFireballMaterial</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_movie_explosion.cpp</FILENAME>
+      <LINE>87</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_MovieExplosion::m_EmitterLifetime' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_MovieExplosion::{ctor}</FUNCTION>
+    <DECORATED>??0C_MovieExplosion@@QAE@XZ</DECORATED>
+    <FUNCLINE>87</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_MovieExplosion::m_EmitterLifetime</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_movie_explosion.cpp</FILENAME>
+      <LINE>34</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'MovieExplosionEmitter::m_Lifetime' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>MovieExplosionEmitter::{ctor}</FUNCTION>
+    <DECORATED>??0MovieExplosionEmitter@@QAE@XZ</DECORATED>
+    <FUNCLINE>34</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>MovieExplosionEmitter::m_Lifetime</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

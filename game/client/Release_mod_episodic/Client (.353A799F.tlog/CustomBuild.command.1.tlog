@@ -1,0 +1,6 @@
+^E:\XBLAH\CONTENT\MAPBASE\KLEPTO\SRC\PUBLIC\TIER0\POINTEROVERRIDE.ASM
+"D:\Visual Studio\VC\Tools\MSVC\14.43.34808\bin\HostX64\x86\ml.exe" /safeseh /c /Cp /Zi /Fo".\Release_mod_episodic\\pointeroverride.obj" "E:\XBLAH\content\Mapbase\klepto\src\public\tier0\pointeroverride.asm"
+^E:\XBLAH\CONTENT\MAPBASE\KLEPTO\SRC\GAME\CLIENT\CLIENT_EPISODIC.VPC
+if exist "..\..\devtools\bin\vpc.exe" "..\..\devtools\bin\vpc.exe" -crc2 "client_episodic.vcxproj"
+if ERRORLEVEL 1 exit /b 1
+echo crc_complete > E:\XBLAH\content\Mapbase\klepto\src\game\client\client_episodic.vpc.sentinel

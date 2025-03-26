@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>fx_trail.cpp</FILENAME>
+      <LINE>10</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_ParticleTrail::m_pParticleMgr' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_ParticleTrail::{ctor}</FUNCTION>
+    <DECORATED>??0C_ParticleTrail@@QAE@XZ</DECORATED>
+    <FUNCLINE>10</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_ParticleTrail::m_pParticleMgr</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>fx_trail.cpp</FILENAME>
+      <LINE>10</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_ParticleTrail::m_bEmit' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_ParticleTrail::{ctor}</FUNCTION>
+    <DECORATED>??0C_ParticleTrail@@QAE@XZ</DECORATED>
+    <FUNCLINE>10</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_ParticleTrail::m_bEmit</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>fx_trail.cpp</FILENAME>
+      <LINE>10</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_ParticleTrail::m_SpawnRate' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_ParticleTrail::{ctor}</FUNCTION>
+    <DECORATED>??0C_ParticleTrail@@QAE@XZ</DECORATED>
+    <FUNCLINE>10</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_ParticleTrail::m_SpawnRate</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>fx_trail.cpp</FILENAME>
+      <LINE>10</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_ParticleTrail::m_flLifetime' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_ParticleTrail::{ctor}</FUNCTION>
+    <DECORATED>??0C_ParticleTrail@@QAE@XZ</DECORATED>
+    <FUNCLINE>10</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_ParticleTrail::m_flLifetime</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>fx_trail.cpp</FILENAME>
+      <LINE>10</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_ParticleTrail::m_nAttachment' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_ParticleTrail::{ctor}</FUNCTION>
+    <DECORATED>??0C_ParticleTrail@@QAE@XZ</DECORATED>
+    <FUNCLINE>10</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_ParticleTrail::m_nAttachment</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

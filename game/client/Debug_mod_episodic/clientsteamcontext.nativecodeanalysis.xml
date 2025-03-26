@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\steam\</FILEPATH>
+      <FILENAME>matchmakingtypes.h</FILENAME>
+      <LINE>225</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'gameserveritem_t::m_NetAdr' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>gameserveritem_t::{ctor}</FUNCTION>
+    <DECORATED>??0gameserveritem_t@@QAE@XZ</DECORATED>
+    <FUNCLINE>225</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>gameserveritem_t::m_NetAdr</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>clientsteamcontext.cpp</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CClientSteamContext::m_nUniverse' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CClientSteamContext::{ctor}</FUNCTION>
+    <DECORATED>??0CClientSteamContext@@QAE@XZ</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CClientSteamContext::m_nUniverse</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

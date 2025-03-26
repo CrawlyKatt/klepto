@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_env_particlescript.cpp</FILENAME>
+      <LINE>85</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_EnvParticleScript::m_nOldSequence' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_EnvParticleScript::{ctor}</FUNCTION>
+    <DECORATED>??0C_EnvParticleScript@@QAE@XZ</DECORATED>
+    <FUNCLINE>85</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_EnvParticleScript::m_nOldSequence</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_env_particlescript.cpp</FILENAME>
+      <LINE>85</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_EnvParticleScript::m_flSequenceScale' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_EnvParticleScript::{ctor}</FUNCTION>
+    <DECORATED>??0C_EnvParticleScript@@QAE@XZ</DECORATED>
+    <FUNCLINE>85</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_EnvParticleScript::m_flSequenceScale</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_env_particlescript.cpp</FILENAME>
+      <LINE>185</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>6255</DEFECTCODE>
+    <DESCRIPTION>`_alloca` indicates failure by raising a stack overflow exception.  Consider using _malloca instead.</DESCRIPTION>
+    <FUNCTION>C_EnvParticleScript::DestroyAllParticles</FUNCTION>
+    <DECORATED>?DestroyAllParticles@C_EnvParticleScript@@AAEXPBD@Z</DECORATED>
+    <FUNCLINE>178</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_env_particlescript.cpp</FILENAME>
+      <LINE>203</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>6255</DEFECTCODE>
+    <DESCRIPTION>`_alloca` indicates failure by raising a stack overflow exception.  Consider using _malloca instead.</DESCRIPTION>
+    <FUNCTION>C_EnvParticleScript::DestroyAllParticles</FUNCTION>
+    <DECORATED>?DestroyAllParticles@C_EnvParticleScript@@AAEXXZ</DECORATED>
+    <FUNCLINE>200</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

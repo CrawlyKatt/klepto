@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\</FILEPATH>
+      <FILENAME>saverestoretypes.h</FILENAME>
+      <LINE>283</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CGameSaveRestoreInfo::CHashElement::index' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CGameSaveRestoreInfo::CHashElement::{ctor}</FUNCTION>
+    <DECORATED>??0CHashElement@CGameSaveRestoreInfo@@QAE@PBVC_BaseEntity@@@Z</DECORATED>
+    <FUNCLINE>283</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CGameSaveRestoreInfo::CHashElement::index</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\</FILEPATH>
+      <FILENAME>saverestoretypes.h</FILENAME>
+      <LINE>284</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CGameSaveRestoreInfo::CHashElement::pEntity' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CGameSaveRestoreInfo::CHashElement::{ctor}</FUNCTION>
+    <DECORATED>??0CHashElement@CGameSaveRestoreInfo@@QAE@XZ</DECORATED>
+    <FUNCLINE>284</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CGameSaveRestoreInfo::CHashElement::pEntity</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\</FILEPATH>
+      <FILENAME>saverestoretypes.h</FILENAME>
+      <LINE>284</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CGameSaveRestoreInfo::CHashElement::index' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CGameSaveRestoreInfo::CHashElement::{ctor}</FUNCTION>
+    <DECORATED>??0CHashElement@CGameSaveRestoreInfo@@QAE@XZ</DECORATED>
+    <FUNCLINE>284</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CGameSaveRestoreInfo::CHashElement::index</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\</FILEPATH>
+      <FILENAME>saverestoretypes.h</FILENAME>
+      <LINE>176</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'saverestorelevelinfo_t::time__USE_VCR_MODE' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>saverestorelevelinfo_t::{ctor}</FUNCTION>
+    <DECORATED>??0saverestorelevelinfo_t@@QAE@XZ</DECORATED>
+    <FUNCLINE>176</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>saverestorelevelinfo_t::time__USE_VCR_MODE</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\</FILEPATH>
+      <FILENAME>saverestoretypes.h</FILENAME>
+      <LINE>176</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'saverestorelevelinfo_t::szCurrentMapName' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>saverestorelevelinfo_t::{ctor}</FUNCTION>
+    <DECORATED>??0saverestorelevelinfo_t@@QAE@XZ</DECORATED>
+    <FUNCLINE>176</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>saverestorelevelinfo_t::szCurrentMapName</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\</FILEPATH>
+      <FILENAME>saverestoretypes.h</FILENAME>
+      <LINE>176</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'saverestorelevelinfo_t::connectionCount' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>saverestorelevelinfo_t::{ctor}</FUNCTION>
+    <DECORATED>??0saverestorelevelinfo_t@@QAE@XZ</DECORATED>
+    <FUNCLINE>176</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>saverestorelevelinfo_t::connectionCount</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\</FILEPATH>
+      <FILENAME>saverestoretypes.h</FILENAME>
+      <LINE>176</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'saverestorelevelinfo_t::mapVersion' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>saverestorelevelinfo_t::{ctor}</FUNCTION>
+    <DECORATED>??0saverestorelevelinfo_t@@QAE@XZ</DECORATED>
+    <FUNCLINE>176</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>saverestorelevelinfo_t::mapVersion</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\</FILEPATH>
+      <FILENAME>saverestoretypes.h</FILENAME>
+      <LINE>176</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'saverestorelevelinfo_t::fUseLandmark' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>saverestorelevelinfo_t::{ctor}</FUNCTION>
+    <DECORATED>??0saverestorelevelinfo_t@@QAE@XZ</DECORATED>
+    <FUNCLINE>176</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>saverestorelevelinfo_t::fUseLandmark</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\</FILEPATH>
+      <FILENAME>saverestoretypes.h</FILENAME>
+      <LINE>176</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'saverestorelevelinfo_t::szLandmarkName' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>saverestorelevelinfo_t::{ctor}</FUNCTION>
+    <DECORATED>??0saverestorelevelinfo_t@@QAE@XZ</DECORATED>
+    <FUNCLINE>176</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>saverestorelevelinfo_t::szLandmarkName</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\</FILEPATH>
+      <FILENAME>saverestoretypes.h</FILENAME>
+      <LINE>100</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'levellist_t::mapName' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>levellist_t::{ctor}</FUNCTION>
+    <DECORATED>??0levellist_t@@QAE@XZ</DECORATED>
+    <FUNCLINE>100</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>levellist_t::mapName</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\</FILEPATH>
+      <FILENAME>saverestoretypes.h</FILENAME>
+      <LINE>100</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'levellist_t::landmarkName' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>levellist_t::{ctor}</FUNCTION>
+    <DECORATED>??0levellist_t@@QAE@XZ</DECORATED>
+    <FUNCLINE>100</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>levellist_t::landmarkName</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\</FILEPATH>
+      <FILENAME>saverestoretypes.h</FILENAME>
+      <LINE>100</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'levellist_t::pentLandmark' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>levellist_t::{ctor}</FUNCTION>
+    <DECORATED>??0levellist_t@@QAE@XZ</DECORATED>
+    <FUNCLINE>100</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>levellist_t::pentLandmark</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>physics_saverestore.cpp</FILENAME>
+      <LINE>126</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CPhysSaveRestoreBlockHandler::m_fDoLoad' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CPhysSaveRestoreBlockHandler::{ctor}</FUNCTION>
+    <DECORATED>??0CPhysSaveRestoreBlockHandler@@QAE@XZ</DECORATED>
+    <FUNCLINE>126</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CPhysSaveRestoreBlockHandler::m_fDoLoad</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>physics_saverestore.cpp</FILENAME>
+      <LINE>126</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CPhysSaveRestoreBlockHandler::m_blockHeader' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CPhysSaveRestoreBlockHandler::{ctor}</FUNCTION>
+    <DECORATED>??0CPhysSaveRestoreBlockHandler@@QAE@XZ</DECORATED>
+    <FUNCLINE>126</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CPhysSaveRestoreBlockHandler::m_blockHeader</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>physics_saverestore.cpp</FILENAME>
+      <LINE>620</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CPhysSaveRestoreBlockHandler::QueuedItem_t::ppPhysObj' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CPhysSaveRestoreBlockHandler::QueuedItem_t::{ctor}</FUNCTION>
+    <DECORATED>??0QueuedItem_t@CPhysSaveRestoreBlockHandler@@QAE@XZ</DECORATED>
+    <FUNCLINE>620</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CPhysSaveRestoreBlockHandler::QueuedItem_t::ppPhysObj</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>physics_saverestore.cpp</FILENAME>
+      <LINE>806</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CPhysObjSaveRestoreOps::m_type' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CPhysObjSaveRestoreOps::{ctor}</FUNCTION>
+    <DECORATED>??0CPhysObjSaveRestoreOps@@QAE@XZ</DECORATED>
+    <FUNCLINE>806</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CPhysObjSaveRestoreOps::m_type</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\tier1\</FILEPATH>
+      <FILENAME>utlmap.h</FILENAME>
+      <LINE>178</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CUtlMap&lt;C_BaseEntity *,CPhysSaveRestoreBlockHandler::CEntityRestoreSet *,unsigned short&gt;::Node_t::key' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CUtlMap&lt;C_BaseEntity *,CPhysSaveRestoreBlockHandler::CEntityRestoreSet *,unsigned short&gt;::Node_t::{ctor}</FUNCTION>
+    <DECORATED>??0Node_t@?$CUtlMap@PAVC_BaseEntity@@PAVCEntityRestoreSet@CPhysSaveRestoreBlockHandler@@G@@QAE@XZ</DECORATED>
+    <FUNCLINE>178</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CUtlMap&lt;C_BaseEntity *,CPhysSaveRestoreBlockHandler::CEntityRestoreSet *,unsigned short&gt;::Node_t::key</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\tier1\</FILEPATH>
+      <FILENAME>utlmap.h</FILENAME>
+      <LINE>178</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CUtlMap&lt;C_BaseEntity *,CPhysSaveRestoreBlockHandler::CEntityRestoreSet *,unsigned short&gt;::Node_t::elem' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CUtlMap&lt;C_BaseEntity *,CPhysSaveRestoreBlockHandler::CEntityRestoreSet *,unsigned short&gt;::Node_t::{ctor}</FUNCTION>
+    <DECORATED>??0Node_t@?$CUtlMap@PAVC_BaseEntity@@PAVCEntityRestoreSet@CPhysSaveRestoreBlockHandler@@G@@QAE@XZ</DECORATED>
+    <FUNCLINE>178</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CUtlMap&lt;C_BaseEntity *,CPhysSaveRestoreBlockHandler::CEntityRestoreSet *,unsigned short&gt;::Node_t::elem</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\tier1\</FILEPATH>
+      <FILENAME>utlmap.h</FILENAME>
+      <LINE>178</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CUtlMap&lt;IPhysicsObject *,int,unsigned short&gt;::Node_t::elem' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CUtlMap&lt;IPhysicsObject *,int,unsigned short&gt;::Node_t::{ctor}</FUNCTION>
+    <DECORATED>??0Node_t@?$CUtlMap@PAVIPhysicsObject@@HG@@QAE@XZ</DECORATED>
+    <FUNCLINE>178</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CUtlMap&lt;IPhysicsObject *,int,unsigned short&gt;::Node_t::elem</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\tier1\</FILEPATH>
+      <FILENAME>utlmap.h</FILENAME>
+      <LINE>178</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CUtlMap&lt;IPhysicsObject *,int,unsigned short&gt;::Node_t::key' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CUtlMap&lt;IPhysicsObject *,int,unsigned short&gt;::Node_t::{ctor}</FUNCTION>
+    <DECORATED>??0Node_t@?$CUtlMap@PAVIPhysicsObject@@HG@@QAE@XZ</DECORATED>
+    <FUNCLINE>178</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CUtlMap&lt;IPhysicsObject *,int,unsigned short&gt;::Node_t::key</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\tier1\</FILEPATH>
+      <FILENAME>utlmap.h</FILENAME>
+      <LINE>178</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CUtlMap&lt;IPhysicsObject *,CPhysCollide const *,unsigned short&gt;::Node_t::key' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CUtlMap&lt;IPhysicsObject *,CPhysCollide const *,unsigned short&gt;::Node_t::{ctor}</FUNCTION>
+    <DECORATED>??0Node_t@?$CUtlMap@PAVIPhysicsObject@@PBVCPhysCollide@@G@@QAE@XZ</DECORATED>
+    <FUNCLINE>178</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CUtlMap&lt;IPhysicsObject *,CPhysCollide const *,unsigned short&gt;::Node_t::key</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\tier1\</FILEPATH>
+      <FILENAME>utlmap.h</FILENAME>
+      <LINE>178</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CUtlMap&lt;IPhysicsObject *,CPhysCollide const *,unsigned short&gt;::Node_t::elem' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CUtlMap&lt;IPhysicsObject *,CPhysCollide const *,unsigned short&gt;::Node_t::{ctor}</FUNCTION>
+    <DECORATED>??0Node_t@?$CUtlMap@PAVIPhysicsObject@@PBVCPhysCollide@@G@@QAE@XZ</DECORATED>
+    <FUNCLINE>178</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CUtlMap&lt;IPhysicsObject *,CPhysCollide const *,unsigned short&gt;::Node_t::elem</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\tier1\</FILEPATH>
+      <FILENAME>utlmap.h</FILENAME>
+      <LINE>178</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CUtlMap&lt;CPhysCollide const *,BBox_t,unsigned short&gt;::Node_t::key' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CUtlMap&lt;CPhysCollide const *,BBox_t,unsigned short&gt;::Node_t::{ctor}</FUNCTION>
+    <DECORATED>??0Node_t@?$CUtlMap@PBVCPhysCollide@@UBBox_t@@G@@QAE@XZ</DECORATED>
+    <FUNCLINE>178</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CUtlMap&lt;CPhysCollide const *,BBox_t,unsigned short&gt;::Node_t::key</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

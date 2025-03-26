@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>saverestore_stringtable.h</FILENAME>
+      <LINE>44</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>6255</DEFECTCODE>
+    <DESCRIPTION>`_alloca` indicates failure by raising a stack overflow exception.  Consider using _malloca instead.</DESCRIPTION>
+    <FUNCTION>CStringTableSaveRestoreOps::Restore</FUNCTION>
+    <DECORATED>?Restore@CStringTableSaveRestoreOps@@UAEXABUSaveRestoreFieldInfo_t@@PAVIRestore@@@Z</DECORATED>
+    <FUNCLINE>40</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>vguiscreen.cpp</FILENAME>
+      <LINE>58</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CVGuiScreen::m_strOverlayMaterial' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CVGuiScreen::{ctor}</FUNCTION>
+    <DECORATED>??0CVGuiScreen@@QAE@XZ</DECORATED>
+    <FUNCLINE>58</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CVGuiScreen::m_strOverlayMaterial</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\tier1\</FILEPATH>
+      <FILENAME>utlmap.h</FILENAME>
+      <LINE>178</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CUtlMap&lt;char const *,CBaseEntityOutput *,int&gt;::Node_t::elem' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CUtlMap&lt;char const *,CBaseEntityOutput *,int&gt;::Node_t::{ctor}</FUNCTION>
+    <DECORATED>??0Node_t@?$CUtlMap@PBDPAVCBaseEntityOutput@@H@@QAE@XZ</DECORATED>
+    <FUNCLINE>178</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CUtlMap&lt;char const *,CBaseEntityOutput *,int&gt;::Node_t::elem</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\tier1\</FILEPATH>
+      <FILENAME>utlmap.h</FILENAME>
+      <LINE>178</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CUtlMap&lt;char const *,CBaseEntityOutput *,int&gt;::Node_t::key' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CUtlMap&lt;char const *,CBaseEntityOutput *,int&gt;::Node_t::{ctor}</FUNCTION>
+    <DECORATED>??0Node_t@?$CUtlMap@PBDPAVCBaseEntityOutput@@H@@QAE@XZ</DECORATED>
+    <FUNCLINE>178</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CUtlMap&lt;char const *,CBaseEntityOutput *,int&gt;::Node_t::key</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>env_effectsscript.cpp</FILENAME>
+      <LINE>483</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'sscanf'.</DESCRIPTION>
+    <FUNCTION>CEnvEffectsScript::ParseNewEffect</FUNCTION>
+    <DECORATED>?ParseNewEffect@CEnvEffectsScript@@QAEXXZ</DECORATED>
+    <FUNCLINE>423</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\</FILEPATH>
+      <FILENAME>env_effectsscript.cpp</FILENAME>
+      <LINE>138</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CEnvEffectsScript::m_iszScriptName' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CEnvEffectsScript::{ctor}</FUNCTION>
+    <DECORATED>??0CEnvEffectsScript@@QAE@XZ</DECORATED>
+    <FUNCLINE>138</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CEnvEffectsScript::m_iszScriptName</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

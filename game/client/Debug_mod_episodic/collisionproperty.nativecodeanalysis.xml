@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>collisionproperty.cpp</FILENAME>
+      <LINE>106</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CDirtySpatialPartitionEntityList::m_partitionWriteId' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CDirtySpatialPartitionEntityList::{ctor}</FUNCTION>
+    <DECORATED>??0CDirtySpatialPartitionEntityList@@QAE@PBD@Z</DECORATED>
+    <FUNCLINE>106</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CDirtySpatialPartitionEntityList::m_partitionWriteId</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

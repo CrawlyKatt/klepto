@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_func_occluder.cpp</FILENAME>
+      <LINE>28</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_FuncOccluder::m_nOccluderIndex' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_FuncOccluder::{ctor}</FUNCTION>
+    <DECORATED>??0C_FuncOccluder@@QAE@XZ</DECORATED>
+    <FUNCLINE>28</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_FuncOccluder::m_nOccluderIndex</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_func_occluder.cpp</FILENAME>
+      <LINE>28</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_FuncOccluder::m_bActive' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_FuncOccluder::{ctor}</FUNCTION>
+    <DECORATED>??0C_FuncOccluder@@QAE@XZ</DECORATED>
+    <FUNCLINE>28</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_FuncOccluder::m_bActive</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

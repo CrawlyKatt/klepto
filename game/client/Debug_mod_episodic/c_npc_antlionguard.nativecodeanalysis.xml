@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\hl2\</FILEPATH>
+      <FILENAME>c_npc_antlionguard.cpp</FILENAME>
+      <LINE>25</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_NPC_AntlionGuard::m_pBleedingFX' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_NPC_AntlionGuard::{ctor}</FUNCTION>
+    <DECORATED>??0C_NPC_AntlionGuard@@QAE@XZ</DECORATED>
+    <FUNCLINE>25</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_NPC_AntlionGuard::m_pBleedingFX</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\hl2\</FILEPATH>
+      <FILENAME>c_npc_antlionguard.cpp</FILENAME>
+      <LINE>25</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_NPC_AntlionGuard::m_iPerformingBleedingLevel' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_NPC_AntlionGuard::{ctor}</FUNCTION>
+    <DECORATED>??0C_NPC_AntlionGuard@@QAE@XZ</DECORATED>
+    <FUNCLINE>25</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_NPC_AntlionGuard::m_iPerformingBleedingLevel</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\hl2\</FILEPATH>
+      <FILENAME>c_npc_antlionguard.cpp</FILENAME>
+      <LINE>25</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_NPC_AntlionGuard::m_iBleedingLevel' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_NPC_AntlionGuard::{ctor}</FUNCTION>
+    <DECORATED>??0C_NPC_AntlionGuard@@QAE@XZ</DECORATED>
+    <FUNCLINE>25</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_NPC_AntlionGuard::m_iBleedingLevel</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\hl2\</FILEPATH>
+      <FILENAME>c_npc_antlionguard.cpp</FILENAME>
+      <LINE>25</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_NPC_AntlionGuard::m_dlight' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_NPC_AntlionGuard::{ctor}</FUNCTION>
+    <DECORATED>??0C_NPC_AntlionGuard@@QAE@XZ</DECORATED>
+    <FUNCLINE>25</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_NPC_AntlionGuard::m_dlight</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\hl2\</FILEPATH>
+      <FILENAME>c_npc_antlionguard.cpp</FILENAME>
+      <LINE>25</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_NPC_AntlionGuard::m_bInCavern' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_NPC_AntlionGuard::{ctor}</FUNCTION>
+    <DECORATED>??0C_NPC_AntlionGuard@@QAE@XZ</DECORATED>
+    <FUNCLINE>25</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_NPC_AntlionGuard::m_bInCavern</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\hl2\</FILEPATH>
+      <FILENAME>c_npc_antlionguard.cpp</FILENAME>
+      <LINE>25</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_NPC_AntlionGuard::m_bCavernBreed' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_NPC_AntlionGuard::{ctor}</FUNCTION>
+    <DECORATED>??0C_NPC_AntlionGuard@@QAE@XZ</DECORATED>
+    <FUNCLINE>25</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_NPC_AntlionGuard::m_bCavernBreed</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

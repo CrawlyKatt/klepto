@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>camomaterialproxy.cpp</FILENAME>
+      <LINE>119</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CCamoMaterialProxy::m_CamoPatternNumColors' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CCamoMaterialProxy::{ctor}</FUNCTION>
+    <DECORATED>??0CCamoMaterialProxy@@QAE@XZ</DECORATED>
+    <FUNCLINE>119</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CCamoMaterialProxy::m_CamoPatternNumColors</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>camomaterialproxy.cpp</FILENAME>
+      <LINE>119</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CCamoMaterialProxy::m_CamoPatternWidth' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CCamoMaterialProxy::{ctor}</FUNCTION>
+    <DECORATED>??0CCamoMaterialProxy@@QAE@XZ</DECORATED>
+    <FUNCLINE>119</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CCamoMaterialProxy::m_CamoPatternWidth</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>camomaterialproxy.cpp</FILENAME>
+      <LINE>119</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CCamoMaterialProxy::m_CamoPatternHeight' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CCamoMaterialProxy::{ctor}</FUNCTION>
+    <DECORATED>??0CCamoMaterialProxy@@QAE@XZ</DECORATED>
+    <FUNCLINE>119</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CCamoMaterialProxy::m_CamoPatternHeight</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>camomaterialproxy.cpp</FILENAME>
+      <LINE>119</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CCamoMaterialProxy::m_CamoPalette' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CCamoMaterialProxy::{ctor}</FUNCTION>
+    <DECORATED>??0CCamoMaterialProxy@@QAE@XZ</DECORATED>
+    <FUNCLINE>119</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CCamoMaterialProxy::m_CamoPalette</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

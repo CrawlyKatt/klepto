@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>fx_cube.cpp</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'FX_Cube::m_Life' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>FX_Cube::{ctor}</FUNCTION>
+    <DECORATED>??0FX_Cube@@QAE@PAVIMaterial@@@Z</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>FX_Cube::m_Life</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\</FILEPATH>
+      <FILENAME>test_ehandle.cpp</FILENAME>
+      <LINE>104</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_HandleTest::m_bSendHandle' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_HandleTest::{ctor}</FUNCTION>
+    <DECORATED>??0C_HandleTest@@QAE@XZ</DECORATED>
+    <FUNCLINE>104</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_HandleTest::m_bSendHandle</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

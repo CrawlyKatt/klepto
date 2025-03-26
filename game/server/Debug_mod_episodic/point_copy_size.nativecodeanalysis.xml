@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\mapbase\</FILEPATH>
+      <FILENAME>point_copy_size.cpp</FILENAME>
+      <LINE>39</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CPointCopySize::m_iszSizeSource' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CPointCopySize::{ctor}</FUNCTION>
+    <DECORATED>??0CPointCopySize@@QAE@XZ</DECORATED>
+    <FUNCLINE>39</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CPointCopySize::m_iszSizeSource</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\server\mapbase\</FILEPATH>
+      <FILENAME>point_copy_size.cpp</FILENAME>
+      <LINE>39</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CPointCopySize::m_flScale' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CPointCopySize::{ctor}</FUNCTION>
+    <DECORATED>??0CPointCopySize@@QAE@XZ</DECORATED>
+    <FUNCLINE>39</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CPointCopySize::m_flScale</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

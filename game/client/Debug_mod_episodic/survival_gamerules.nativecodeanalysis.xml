@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\</FILEPATH>
+      <FILENAME>filesystem.h</FILENAME>
+      <LINE>393</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'FileHash_t::m_crcIOSequence' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>FileHash_t::{ctor}</FUNCTION>
+    <DECORATED>??0FileHash_t@@QAE@XZ</DECORATED>
+    <FUNCLINE>393</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>FileHash_t::m_crcIOSequence</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\public\</FILEPATH>
+      <FILENAME>filesystem.h</FILENAME>
+      <LINE>393</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'FileHash_t::m_md5contents' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>FileHash_t::{ctor}</FUNCTION>
+    <DECORATED>??0FileHash_t@@QAE@XZ</DECORATED>
+    <FUNCLINE>393</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>FileHash_t::m_md5contents</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\shared\hl2\</FILEPATH>
+      <FILENAME>survival_gamerules.cpp</FILENAME>
+      <LINE>61</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CSurvivalSettings::m_szPickups' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CSurvivalSettings::{ctor}</FUNCTION>
+    <DECORATED>??0CSurvivalSettings@@QAE@XZ</DECORATED>
+    <FUNCLINE>61</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CSurvivalSettings::m_szPickups</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

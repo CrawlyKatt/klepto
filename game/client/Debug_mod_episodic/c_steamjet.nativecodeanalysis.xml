@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_steamjet.cpp</FILENAME>
+      <LINE>138</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_SteamJet::m_nType' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_SteamJet::{ctor}</FUNCTION>
+    <DECORATED>??0C_SteamJet@@QAE@XZ</DECORATED>
+    <FUNCLINE>138</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_SteamJet::m_nType</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_steamjet.cpp</FILENAME>
+      <LINE>138</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_SteamJet::m_spawnflags' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_SteamJet::{ctor}</FUNCTION>
+    <DECORATED>??0C_SteamJet@@QAE@XZ</DECORATED>
+    <FUNCLINE>138</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_SteamJet::m_spawnflags</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_steamjet.cpp</FILENAME>
+      <LINE>138</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_SteamJet::m_flRollSpeed' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_SteamJet::{ctor}</FUNCTION>
+    <DECORATED>??0C_SteamJet@@QAE@XZ</DECORATED>
+    <FUNCLINE>138</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_SteamJet::m_flRollSpeed</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\XBLAH\content\Mapbase\klepto\src\game\client\</FILEPATH>
+      <FILENAME>c_steamjet.cpp</FILENAME>
+      <LINE>138</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'C_SteamJet::m_Lifetime' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>C_SteamJet::{ctor}</FUNCTION>
+    <DECORATED>??0C_SteamJet@@QAE@XZ</DECORATED>
+    <FUNCLINE>138</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>C_SteamJet::m_Lifetime</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
