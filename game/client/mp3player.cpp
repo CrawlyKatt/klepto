@@ -157,8 +157,8 @@ public:
 	{
 		m_pList = new ListPanel( this, "FileList" );
 		m_pList->AddColumnHeader( 0, "File", "File", 200, ListPanel::COLUMN_RESIZEWITHWINDOW );
-		m_pList->AddColumnHeader( 1, "Artist", "Artist", 150, ListPanel::COLUMN_RESIZEWITHWINDOW );
-		m_pList->AddColumnHeader( 2, "Album", "Album", 150, ListPanel::COLUMN_RESIZEWITHWINDOW );
+		m_pList->AddColumnHeader( 1, "Folder", "Folder", 150, ListPanel::COLUMN_RESIZEWITHWINDOW );
+		m_pList->AddColumnHeader( 2, "Subfolder", "Subfolder", 150, ListPanel::COLUMN_RESIZEWITHWINDOW );
 	}
 
 	void Reset()
@@ -202,8 +202,8 @@ public:
 			char album[ 256 ];
 			if ( SplitArtistAlbum( fn, artist, sizeof( artist ), album, sizeof( album ) ) )
 			{
-				kv->SetString( "Artist", artist );
-				kv->SetString( "Album", album );
+				kv->SetString( "Folder", artist );
+				kv->SetString( "Subfolder", album );
 			}
 		}
 		kv->SetInt( "SongIndex", songIndex );
@@ -308,8 +308,8 @@ public:
 	{
 		m_pList = new ListPanel( this, "PlayList" );
 		m_pList->AddColumnHeader( 0, "File", "File", 400, ListPanel::COLUMN_RESIZEWITHWINDOW );
-		m_pList->AddColumnHeader( 1, "Artist", "Artist", 150, ListPanel::COLUMN_RESIZEWITHWINDOW );
-		m_pList->AddColumnHeader( 2, "Album", "Album", 150, ListPanel::COLUMN_RESIZEWITHWINDOW );
+		m_pList->AddColumnHeader( 1, "Folder", "Folder", 150, ListPanel::COLUMN_RESIZEWITHWINDOW );
+		m_pList->AddColumnHeader( 2, "Subfolder", "Subfolder", 150, ListPanel::COLUMN_RESIZEWITHWINDOW );
 	}
 
 	void Reset()
@@ -353,8 +353,8 @@ public:
 			char album[ 256 ];
 			if ( SplitArtistAlbum( fn, artist, sizeof( artist ), album, sizeof( album ) ) )
 			{
-				kv->SetString( "Artist", artist );
-				kv->SetString( "Album", album );
+				kv->SetString( "Folder", artist );
+				kv->SetString( "Subfolder", album );
 			}
 		}
 		kv->SetInt( "SongIndex", songIndex );

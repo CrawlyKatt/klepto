@@ -517,7 +517,7 @@ void CRopeManager::DrawRenderCache_NonQueued( bool bShadowDepth, RopeRenderData_
 		m_pDepthWriteMaterial = g_pMaterialSystem->FindProceduralMaterial( "__DepthWrite01", TEXTURE_GROUP_OTHER, pVMTKeyValues );
 	}
 	CMatRenderContextPtr pRenderContext( materials );
-	dddddddddddddddddddddddddddddd
+	
 	// UNDONE: needs to use the queued data
 	{
 		AUTO_LOCK_FM( *pRopeDataMutex );
@@ -546,7 +546,7 @@ void CRopeManager::DrawRenderCache_NonQueued( bool bShadowDepth, RopeRenderData_
 
 			// Need to make sure that all rope materials use the splinerope shader since there are a lot of assumptions about how the shader interfaces with this code.
 			
-			//the following line of code was edited from "SDK_Cable" to "Cable." Seems to stop an assertion but still doesn't 
+			//Katt: the following line of code was edited from "SDK_Cable" to "Cable." Seems to stop an assertion but still doesn't 
 			//lead to the ropes loading or the other crashes from being prevented. I 
 			AssertOnce( V_strstr( pMaterial->GetShaderName(), "Cable" ) != NULL ); // splinerope
 
