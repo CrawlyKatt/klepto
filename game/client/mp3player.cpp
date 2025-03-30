@@ -1595,9 +1595,9 @@ void CMP3Player::OnTick()
 		return;
 	}
 
-	// No song playing...
+	// No song playing...KATT: We will NOT play another.
 	m_nSongGuid = 0;
-	OnNextTrack();
+	//OnNextTrack();
 }
 
 void CMP3Player::OnChangeVolume( float newVol )
@@ -2108,12 +2108,12 @@ void CMP3Player::OnSliderMoved()
 
 // The engine only allows 4 seconds of skip ahead right now and you have to be connected to get it to work
 //  until this is relaxed we can't do this this way...
-#if 0
+
 	float frac = (float)m_pSongProgress->GetValue() / 100.0f;
 
 	float offset = frac * m_flSongDuration;
 	PlaySong( m_nCurrentSong, -offset );
-#endif
+
 }
 
 void CMP3Player::LoadPlayList( char const *filename )
